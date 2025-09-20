@@ -38,18 +38,24 @@ flowchart TD
 
 ### Fuel Definitions
 
-- Block Fuel = Take-Off Fuel + Taxi Fuel
-- Take-Off Fuel
-  - Fuel to fly to destination:
-    - Trip Fuel
-    - Final Reserve Fuel
-    - Contingency Fuel
-  - Fuel to fly to alternate:
-    - Alternate Fuel
-    - Additional Fuel
-  - Safety margin
-    - Extra Fuel
-    - Discretionary Fuel
+```mermaid
+flowchart TD
+    A[Block Fuel] -->|is composed of| B[Take-Off Fuel]
+    A -->|is composed of| C[Taxi Fuel]
+
+    B -->|includes| D[/Fuel to fly to destination/]
+    D --> E[Trip Fuel]
+    D --> F[Final Reserve Fuel]
+    D --> G[Contingency Fuel]
+
+    B -->|includes| H[/Fuel to fly to alternate/]
+    H --> I[Alternate Fuel]
+    H --> J[Additional Fuel]
+
+    B --> K[/Safety Margin/]
+    K --> L[Extra Fuel]
+    K --> M[Discretionary Fuel]
+```
 
 ### Conversions
 
