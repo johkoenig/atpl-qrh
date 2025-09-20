@@ -40,15 +40,15 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Block Fuel] -->|is composed of| B[Take-Off Fuel]
-    A -->|is composed of| C[Taxi Fuel]
+    A[Block Fuel] --> B[Take-Off Fuel]
+    A --> C[Taxi Fuel]
 
-    B -->|includes| D[/Fuel to fly to destination/]
+    B --> D[/Fuel to fly to destination/]
     D --> E[Trip Fuel]
     D --> F[Final Reserve Fuel]
     D --> G[Contingency Fuel]
 
-    B -->|includes| H[/Fuel to fly to alternate/]
+    B --> H[/Fuel to fly to alternate/]
     H --> I[Alternate Fuel]
     H --> J[Additional Fuel]
 
@@ -75,7 +75,42 @@ A regulated take-off or landing mass is the lower of:
 
 ## 04 Mass and Balance Details of Aircraft
 
+### Datum
+
+Reference vertical plane defined by the manufacturer (can be anywhere)
+
+### Mean aerodynamic chord
+
+Spans from leading to trailing edge of wing:
+- 0% MAC: CG at leading edge
+- 100% MAC: CG at trailing edge
+
+### Center of Gravity (CG)
+
+- Theoretical point where all mass is concentrated and gravity acts vertically
+- Allowed value is defined my manufacturer, given as percentage of MAC (e.g. 7% to 34%)
+- Placed in AFM, Section "Weight & Loading" or "Limitations"
+
+### Necessity of weighting
+
+- Initlal entry
+- Modifications without record
+- Every 4 years, unless fleet masses are used
+- Change of &plusmn;0.5% of MLM
+- Change of &plusmn;0.5% of MAC
+
+Note: Weighting must take place in an enclosed building
+
+### Other
+
+- Position of horizontal stabiliser does not affect the CG
+
 ## 05 Determination of CG Position
+
+### Index
+
+- The index is the moment, reduced by a factor (e.g. 1000)
+- The decrease of magnitude simplifies calculations
 
 ## 06 Cargo Handling
 
@@ -83,3 +118,15 @@ A regulated take-off or landing mass is the lower of:
 
 - Floor load: Load per area (kg/m^2)
 - Running load: Load per fuselage length (kg/m)
+
+### Cargo types
+
+Bulk
+- Crew baggage
+- Rush bags
+Container
+- Passenger baggage
+- Baggage that needs protection
+Pallets
+- Large and oversized cargo
+- Irregular shaped cargo
