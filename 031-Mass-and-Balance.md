@@ -124,9 +124,11 @@ Note: Weighting must take place in an enclosed building
 Bulk
 - Crew baggage
 - Rush bags
+
 Container
 - Passenger baggage
 - Baggage that needs protection
+
 Pallets
 - Large and oversized cargo
 - Irregular shaped cargo
