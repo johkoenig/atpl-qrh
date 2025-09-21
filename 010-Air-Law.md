@@ -103,6 +103,70 @@ Until 2015, Regulations were designated as *Number/Year*, thereafter as *Year/Nu
 
 ## 04 - Personnel Licensing
 
+### Definitions
+
+- **Cross-country flight**: A flight between two points follownig a pre-planned route, using standard navigation procedures
+- **Renewal**: Re-enabling a rating after it has lapsed
+- **Revalidation**: Extending a rating within its period of validity
+
+### Validity of Medicals
+
+Class 1 (for CPL, ATPL, MPL):
+
+- Below 40 years: 12 CMs
+- Between 40 and 60 years: 12 CMs for MP, 6 CMs for SP
+- Above 60 years: 6 CMs
+
+Class 2 (for PPL):
+
+- Below 40 years: 60 CMs
+- Between 40 and 50 years: 24 CMs
+- Above 50 years: 12 CMs
+
+### Deferment of Medical Examination
+
+- Commercial: 2x 3 months
+- Non-commercial: 1x 6 months
+- Private: 1x 24 months
+
+### Validity
+
+- **OPC**: 6 CMs with 3 CMs early-extension period
+- **Banner or sailplane towing**: Unlimited, but to be used only with 5 tows in the last 24 CMs
+- **Mountain Rating**: 24 CMs, revalidation requires 6 mountain landings in 24 CMs
+- **SE SP class rating**: 24 CMs
+- **Other class and type ratings**: 12 CMs
+
+### License Requirements
+
+ATPL
+
+- 1500h TT, 500h PICuS or 250 PIC or 70h PIC and rest PICuS
+- Instrument: 75, 30 ground
+- Night: 100 as PIC/CoPi
+- Sim: 100 (FFS) or 25 (FNPT)
+- XC: 200h TT, 100h PIC/PICuS
+
+CPL
+
+- 200h TT (modular), 150h TT (integrated)
+- Night rating (5h)
+- Instrument: 10h
+- XC: 20h and 300 NM flight
+
+IR
+
+- 50h XC, 10h XC in category
+
+### Other Ratings Requirements
+
+- Aerobatic rating (FCL.800): Requires 30h PIC after license, then 5h DUAL
+- Sailplane towing rating (FCL.805): Requires 30h PIC & 60 TO/Ldgs after license, 10 tows (5 with instructor)
+- Banner towing rating (FCL.805): Requires 100h PIC & 200 TO/Lgds after license, 10 tows (5 with instructor), 5 familiarisation flights
+- Night rating (FCL.810): 5h training, incl. 3h DUAL and 5 Solo Full-Stops
+- Flight test rating (FCL.820): Requires CPL/IR, 1000h TT, 400h PIC
+
+
 ## 05 - Rules of the Air According to ICAO Annex 2 and SERA
 
 ## 06 - Aircraft Operations
