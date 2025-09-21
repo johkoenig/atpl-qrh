@@ -81,6 +81,26 @@ Until 2015, Regulations were designated as *Number/Year*, thereafter as *Year/Nu
 
 ## 02 - Airworthiness of Aircraft, Aircraft Nationality and Registration Marks
 
+### Definitions
+
+- **Heavier-than-air aircraft**: Any aircraft that is deriving its lift in flight chiefly from aerodynamic forces.
+- **Lighter-than-air aircraft**: Any aircraft supported chiefly by its buoyancy in the air.
+
+### Registration marks
+
+- Must be placed:
+  - on both sides of the fuselage between wing and tail or on the upper half of the vertical tail
+  - additionally for heavier-than-air: Lower half of left wing
+- Can be a combination of letters and numbers
+- Parts:
+  - Nationality or common mark: Allocated to the state of registry (for nationality marks) or the ICAO (for common marks) by the ITU (e.g. "D" for Germany)
+  - Registration mark: Allocated by the state of registry (e.g. the "ABCD" part of "D-ABCD").
+ 
+### Responsibilities
+
+- State of registry: Responsible for the airworthiness of a specific single aircraft (e.g. certificate of airworthiness, after damage, ...)
+- State of design: Responsible for the aircraft type (e.g. type certificate, continued structural integrity program)
+
 ## 04 - Personnel Licensing
 
 ## 05 - Rules of the Air According to ICAO Annex 2 and SERA
