@@ -69,6 +69,14 @@ A regulated take-off or landing mass is the lower of:
 - the performance-limited mass (given by aerodrome characteristics and/or operator)
 - the structural mass (given by the aircraft design)
 
+### Determination of allowed Take-Off Mass
+
+Minimum of
+
+- (Regulated) Maximum Take-Off Mass (MTOM)
+- Maximum Zero Fuel Mass (MZFM) + Take-Off Fuel
+- (Regulated) Maximum Landing Mass (MLM) + Trip Fuel
+
 ### Other
 
 - Bending of a wing is the highest at ZFM and low fuel in wings
