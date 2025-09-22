@@ -30,6 +30,7 @@ Until 2015, Regulations were designated as *Number/Year*, thereafter as *Year/Nu
 
 - **216/2008**: Establishment of EASA
 - **1178/2011** and **2020/723**: Pilot training and licensing (FCL, MED, CC, ARA, ORA, DTO)
+- **923/2012**: Rules of the Air (SERA)
 - **965/2012**: Operations (ARO, ORO, CAT, SPA, NCC, NCO, SPO, IAM)
 
 
@@ -166,8 +167,48 @@ IR
 - Night rating (FCL.810): 5h training, incl. 3h DUAL and 5 Solo Full-Stops
 - Flight test rating (FCL.820): Requires CPL/IR, 1000h TT, 400h PIC
 
-
 ## 05 - Rules of the Air According to ICAO Annex 2 and SERA
+
+### Definitions
+
+- **Converted Meteorological Visibility (CMV)**: Equivalent to RVR, derived from reported meteorological visibility.
+
+### Applicability of rules
+
+- Over high seas: ICAO Annex 2 (see SERA.1001)
+- Within EU, on EU registered aircraft: SERA, ICAO Annex 2
+- Outside EU, on EU registered aircraft: Local, SERA, Annex 2
+
+### Special Areas in the Air
+
+- Danger Area (D)
+- Restricted Area (R)
+- Prohibited Area (P)
+
+### Special Areas on an Airport
+
+- Non-Movement Area: Aprons, Hangars, etc. (Movement allowed without ATC clearance)
+- Movement Area: Taxiways, Runways (Movement requires ATC cleareance)
+
+### Deviation from Rules of the Air
+
+On discretion of the commander/PIC and only in the interest of safety
+
+### ATC Notification Requirements
+
+- Time difference > 2 mins
+- TAS difference > 5 %
+
+### Light gun signals
+
+| Signal | On the Ground | In the Air |
+|--|--|--|
+| Steady green | Cleared for take-off | cleared to land |
+| Flashing green | Cleared to taxi | Return for landing |
+| Steady red | Stop | Give way to another aircraft |
+| Flashing red | Taxi clear of landing area | Airport unsafe, do not land |
+| Flashing white | Return to starting point | Land at this airport and proceed to apron |
+
 
 ## 06 - Aircraft Operations
 
