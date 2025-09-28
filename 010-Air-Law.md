@@ -190,6 +190,13 @@ IR
 - Non-Movement Area: Aprons, Hangars, etc. (Movement allowed without ATC clearance)
 - Movement Area: Taxiways, Runways (Movement requires ATC cleareance)
 
+### Priority on Ground
+
+- Aircraft on final
+- Aircraft taxiing
+- Vehicle towing aircraft
+- Vehicle
+
 ### Deviation from Rules of the Air
 
 On discretion of the commander/PIC and only in the interest of safety
@@ -197,7 +204,59 @@ On discretion of the commander/PIC and only in the interest of safety
 ### ATC Notification Requirements
 
 - Time difference > 2 mins
-- TAS difference > 5 %
+- TAS difference > 5 % or 10 kts
+
+### Minimum Altitude
+
+- VFR:
+  - Over populated areas: 1000 ft within 600 m of obstacle + landing possible without hazard
+  - 500 ft elsewhere
+ - IFR:
+   - Over mountaneous areas: 2000 ft within 8 km of obstacle
+   - 1000 ft within 8 km of obstacle elsewhere
+  
+### Standard Altitudes / Flight Levels
+
+- Based on magetic track
+  - 0° - 179° MT: ODD (FL10, FL30, ...)
+  - 180° - 359° MT: EVEN (FL20, FL40, ...)
+  - Add +5 for VFR
+  - Above FL290 use double the spacing
+- RVSM a.k.a "Designated Airspace"
+  - 1000 ft spacing remains between FL290 and FL410
+
+### VFR Minima
+
+| Altitude | Flight vis. | Horiz. Dist. | Vert. Dist. |
+|--|--|--|--|
+| Above FL 100 | 8 km | 1500 m | 300 m |
+| 3000ft/1000ft AGL - FL100 | 5 km | 1500 m | 300 m |
+| Below 3000ft/1000ft AGL (A-E) | 5 km | 1500 m | 300 m |
+| Below 3000ft/1000ft AGL (F,G) | 1.5 km (day) / 5 km (night) | Clear of Clouds | None, Ground in sight |
+
+Local regulations (e.g. EASA) may be slightly different
+
+### Right of way
+
+- By category: Balloons, Gliders, Airships, Aircraft towing objects, Powered heavier-than-air
+- By position: On the right, Lower on landing (except Powered heavier-than-air if other is glider)
+ 
+### Comm. Failure
+
+- Squawk Mode A 7600
+- VMC (IFR or VFR): Land, inform ATC
+- IMC:
+  - General: Continue acc. FPL, Hold at IAF, Start approach at EAT (max + 30 mins)
+  - Heading: Back to as filed/planned
+  - Speed/Level:
+    - Non-Radar: Maintain 20 mins, then as filed
+    - Radar: Maintain 7 mins, then as filed
+    - Vectored: Return to as filed before next significant point
+   
+### VFR goes IMC
+
+- In CTR: Request SVFR
+- In controlled airplace: Land ASAP or leave controlled airspace
 
 ### Light gun signals
 
@@ -208,6 +267,33 @@ On discretion of the commander/PIC and only in the interest of safety
 | Steady red | Stop | Give way to another aircraft |
 | Flashing red | Taxi clear of landing area | Airport unsafe, do not land |
 | Flashing white | Return to starting point | Land at this airport and proceed to apron |
+
+Acknowledgement by wing rocking (air), moving rudder and ailerin (ground), or switching lights (night)
+
+Specials:
+- Red/Green discharged: Leave restricted area
+- Red discharged: Do not land, disregard all previous signals
+
+### Intercepting maneuver
+
+- Try to establish contact on 121.5 MHz and 243 MHz
+- Squawk Mode A 7700
+- Calls from interceptor: CALL SIGN, FOLLOW, DESCEND, YOU LAND, PROCEED
+- Calls from aircraft: AM LOST, HIJACK, MAYDAY
+
+### Arrival report
+
+- A/C identification
+- Dep. AD
+- Dest. AD (in case of diversion)
+- Arrival AD
+- Time of arrival
+
+### Other / Misc
+
+- Towed aircraft need the same lights as taxiing aircraft under own power
+- SIM-IMC requires dual controls and safety pilot
+- Max. flight plan EOBT delay is 30 mins (IFR) and 60 mins (VFR)
 
 
 ## 06 - Aircraft Operations
