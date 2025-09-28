@@ -301,6 +301,8 @@ Specials:
 ### Abbreviations
 
 - DER: Departure end of runway
+- MSA: Minimum Sector Altitude (provides 1000 ft clearance within 25 NM)
+- OCH: Obstacle clearance height
 - OIS: Obstacle identification surface
 
 ### Procedure Design Gradient (PDG)
@@ -312,12 +314,61 @@ Usually 3.3%
 ### Types of SIDs
 
 - Straight (< 15° angle): 20 km of track guidance
-- Turning (> 15° angle): 10 km of track guidance
-- Omnidirectional: No track guidance, first turn poss. at 120 ft, min obstacle clearance 90 ft
+- Turning (> 15° angle): 10 km of track guidance (Straight to at least 120m/400ft)
+- Omnidirectional: No track guidance
+
+### Airplace Approach Categories
+
+- A: less than 91 kts
+- B: 91 kts - 121 kts
+- C: 121 kts - 141 kts
+- D: 141 kts - 166 kts
+- E: 166 kts - 211 kts
+
+### Minimum Descend and Obstacle Clearance
+
+- MDA/MDH/DA/DH = OCA/OCH + margin
+- Relevant elevation:
+  - PA: Runway threshold
+  - NPA: Aerodrome or runway treshold, if more than 2m/7ft below aerodrome
+  - Circling: Aerodrome 
+
+### Minimum Obstacle Clearance (MOC)
+
+- Initial segment: 1000 ft
+- Intermediate segment: 500 ft
+- Final (no FAF): 300 ft
+- Final (with FAF): 250 ft
+- Initial missed app.: Not specified (very short, only from decision to start of climb)
+- Intermediate missed app.: 100 ft (no turn) or 150 ft (turn > 15°)
+- Final missed app.: 150 ft
+
+### Accuracy of systems
+
+| | ILS | VOR | NDB |
+|--|--|--|--|
+| Providing track | &plusmn; 2.4° | &plusmn; 5.2° | &plusmn; 6.9° |
+| NOT providing track |  &plusmn; 1.4° | &plusmn; 4.5° | &plusmn; 6.2° |
+
+### Fix Tolerance Factors
+
+- Terminal Area Radar (TAR) within 20 NM: &plusm; 0.8 NM
+- En-route surv. RADAR (RSR) witin 40 NM: &plusm; 1.7 NM
+- DME Fix tolerance: &plusm; 0.25 NM + 1.25% distance to antenna
+
+### Circling Approach
+
+- Design based on runway, wind and weather (yes, really!).
+- Descending below MDA: Threshold in sight, Visual reference can be maintained, obstacle clearance can be maintained
+- MDH cannot be lower than OCH, and min OCH depends on aircraft category
+- Loosing visual reference: Make a climbing turn towards the runway
+- Prominent obstacles can be ignored if outside of final and missed approach areas
 
 ### Other
 
 - SARPs (Standards and recommended practices) apply to all aeroplanes
+- "Visual maneuvering (Circling)" is when the final part of an approach is made visually because the aircraft is not aligned with the runway (> 30°)
+- Straight approach if 30° or less
 
 ## 07 - Air Traffic Services (ATS) and Air Traffic Management (ATM)
 
