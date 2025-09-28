@@ -298,6 +298,27 @@ Specials:
 
 ## 06 - Aircraft Operations
 
+### Abbreviations
+
+- DER: Departure end of runway
+- OIS: Obstacle identification surface
+
+### Procedure Design Gradient (PDG)
+
+Usually 3.3%
+- OIS with 2.5%
+- 0.8% additional margin
+
+### Types of SIDs
+
+- Straight (< 15° angle): 20 km of track guidance
+- Turning (> 15° angle): 10 km of track guidance
+- Omnidirectional: No track guidance, first turn poss. at 120 ft, min obstacle clearance 90 ft
+
+### Other
+
+- SARPs (Standards and recommended practices) apply to all aeroplanes
+
 ## 07 - Air Traffic Services (ATS) and Air Traffic Management (ATM)
 
 ## 08 - Aeronautical Information Service (AIS)
