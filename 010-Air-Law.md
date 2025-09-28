@@ -364,6 +364,37 @@ Usually 3.3%
 - Loosing visual reference: Make a climbing turn towards the runway
 - Prominent obstacles can be ignored if outside of final and missed approach areas
 
+### Holding
+
+- Standard: Right turns / Non-standard: Left turns
+- For standard: Entry via Direct (-70 to +110), Parallel (+110 to &plusm;180) or Offset/Teardrop (&plusm;180 to -70)
+- Outbound leg time: 1 min until 14.000ft, 1:30 min above
+- If ATC defines time of departure from holding point, this must be met exactly (&plusm; 29 sec). Adjust holding if necessary
+- Adjust heading and timing if necessary to stay within safe area
+- Turns shall be 3°/s or 25° bank, whichever is lesser
+
+### Types of Parallel Runway Operations
+
+- Segregated: one for approaches, one for departures
+- Semi-mixed: One for app or departure, one for both
+- Mixes: Both for both
+- Independent parallel approaches (Mode 1): Simultaneous approaches without specific radar seperation
+- Dependent parallel approaches (Mode 2): Simultaneous approaches with prescribed specific radar seperation
+- Independent Operations (Mode 3): Both only for departures
+
+### Independent Parallel Approaches/Departures
+
+- Runways are considered independent if centerlines are 760m/2500ft apart
+- Departures: Flight path angle of at least 15°
+- Approaches:
+  - No transgression zone (NTZ) at least 610m/2000ft wide (from nearer RWY end to point where 1000ft seperation is established)
+  - Monitored by radar
+
+### Transponder unservicable
+
+- Before departure: Inform ATC, note in flight plan. Flight to maintenance airport can be allowed
+- During flight: ATC will try to make continuation of the flight possible
+
 ### Other
 
 - SARPs (Standards and recommended practices) apply to all aeroplanes
