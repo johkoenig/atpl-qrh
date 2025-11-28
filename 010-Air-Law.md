@@ -403,6 +403,56 @@ Usually 3.3%
 
 ## 07 - Air Traffic Services (ATS) and Air Traffic Management (ATM)
 
+### Position report
+
+- ID / Call sign
+- Location / Position
+- Time
+- Flight level / Altitude
+- Next position and time over
+- Ensuing significant point
+
+Memory phrase: **I**'d **l**ike **t**o **f**ly **n**ext **e**vening
+
+### Time seperation on runway
+
+- Departure: 2 mins
+- Opposite: 3 mins
+- Displaced threshold: 2 mins
+- Intermedia: 3 mins
+- Arrival: 2 mins (3 mins for light behind heavy)
+
+Runways seperated less than 760 m do not count as seperated runways
+
+Memory phrase: DODIA (alternating 2 and 3)
+
+### Distance seperation on approach
+
+- Default seperation: 5 NM
+- 1 category: +1 NM
+- X categories: +X NM (+X+1 if SUPER involved)
+
+### Seperation over Navaid
+
+- Airways: Different geographical regions
+- VOR: 15 nm / 15°
+- NDB: 15 nm / 30°
+
+### Horizontal RADAR seperation
+
+- Absolute minimum: 2,5 NM
+- Minimum: 3 NM
+- Minimum unless prescribed: 5 NM
+- Between aircraft on same localizer: 3 NM
+
+### EAT times
+
+New EAT times must be transmitted if: 
+
+- Holding for 30 or more minutes
+- Expected Delay for 10 or more minutes
+- Revised time with 5 or more minutes change
+
 ## 08 - Aeronautical Information Service (AIS)
 
 ## 09 - Aerodromes
