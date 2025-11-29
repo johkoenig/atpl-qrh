@@ -536,6 +536,67 @@ All are issued immediately (in contrast to AIRAC, which is published at certain 
 
 ## 09 - Aerodromes
 
+### Simple approach ligthing system
+
+- At least 420 m in length
+- Crossbar at 300 m
+- single source of light or barette every 60 m
+
+May be used for visual and non-precision approaches only (with exceptions)
+
+### Precision approach lighting system (CAT I)
+
+- At least 900 m in length
+- Crossbars every 150 m (or 300m, depending on the question)
+- CALVERT system: 300 m one light, 300m two light, 300m three lights
+
+### Runway conditions
+
+- Dry = dry
+- Damp = surface colour is changed due to humidity
+- Wet = Runway is soaked with water
+
+### Runway centerline lights
+
+Last 300 m: red
+Between 300 m and 900 m or half of RWY: red/white
+Before that: white
+
+### Obstacle lights
+
+| Intensity | Colour and Type |
+|--|--|--|
+| Low | Red (fixed) /  Yellow, Blue (flashing) |
+| Medium | Red (fixed or flashing) / White (flashing) |
+| High | White | Flashing |
+
+Marking of cables: Spehrical, 60 cm sized
+
+### Runway parts
+
+- Stopway: Paved area behind the TORA, used for ASDA
+- Clearway: Land or water behind the TORA, under the authority of airport control
+- Runway Strip: Area around the runway to reduce damage and protect aircraft (Runway + Stopway)
+- RESA: Area beyond the runway strip that is reducing the risk of damage to overshooting/undershooting aircraft (minmum 90m length)
+
+### Runway lengths
+
+- TORA: Take-off run available
+- ASDA: TORA + Stopway
+- TODA: TORA + Clearway
+  LDA: Displaced Threshold to end of TORA
+
+### Aerodrome reference code (ARC)
+
+For example "4E"
+
+- Number: Aeroplane reference field length
+- Letter: Wingspan
+
+### Aircraft classification number (ACN) / Pavement classification number (PCN)
+
+For aircraft of 5700 kg or less, just maximum mass and tyre pressure are given
+
 ## 10 - Facilitation (ICAO Annex 9)
 
 ## 11 - Search and Rescue (SAR)
