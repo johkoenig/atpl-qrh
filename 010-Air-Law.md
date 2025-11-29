@@ -445,6 +445,27 @@ Memory phrase: DODIA (alternating 2 and 3)
 - Minimum unless prescribed: 5 NM
 - Between aircraft on same localizer: 3 NM
 
+### How to Seperate
+
+- Vertical seperation: Flight Level / Altitude
+- Lateral seperation: Different routes / locations
+- Longitudonal seperation: Time (or mach number technique)
+
+Latter two form the horizontal seperation
+
+### Minimum distance to be aligned on ILS/MLS
+
+- Localizer: 1 NM
+- Glide Path: 2 NM
+
+Mnemonic: Invert the first letter
+
+### Reference for OCA
+
+- Precision approach: OCA = OCH + RWY threshold
+- Non-Precision approach: OCA = OCH + Aerodrome elev. (RWY threshold if diff. > 7ft)
+- Circling: Aerodrome elev.
+
 ### EAT times
 
 New EAT times must be transmitted if: 
@@ -452,6 +473,19 @@ New EAT times must be transmitted if:
 - Holding for 30 or more minutes
 - Expected Delay for 10 or more minutes
 - Revised time with 5 or more minutes change
+
+### Longitudonal seperation for aircraft flying on same track
+
+- Generally: 15 mins
+- When position and speed is known: 10 mins
+- When front a/c speed is >20kt greater: 5 mins
+- When from a/c speed is >40kt greater: 3 mins
+
+### Wind changes to be reported by ATC
+
+- Headwind: 10 kts
+- Crosswind: 5 kts
+- Tailwind: 2 kts
 
 ## 08 - Aeronautical Information Service (AIS)
 
