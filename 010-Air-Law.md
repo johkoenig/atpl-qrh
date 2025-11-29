@@ -33,6 +33,14 @@ Until 2015, Regulations were designated as *Number/Year*, thereafter as *Year/Nu
 - **923/2012**: Rules of the Air (SERA)
 - **965/2012**: Operations (ARO, ORO, CAT, SPA, NCC, NCO, SPO, IAM)
 
+Use Mnemonics SICRN to memorize the years
+
+- 2008: **S**afety
+- 2010: **I**nvestigation
+- 2012: **C**ommercial & Non-Commercial, SERA
+- 2014: **R**eporting
+- 2017: **N**avigation Aids, ATC
+
 
 ### ICAO Annexes
 
@@ -599,8 +607,71 @@ For aircraft of 5700 kg or less, just maximum mass and tyre pressure are given
 
 ## 10 - Facilitation (ICAO Annex 9)
 
+### Unaccompanied baggage
+
+Shall be handled like one of:
+
+- accompanied baggage
+- under simplified customs procedure
+
+### Crew member certificates
+
+- Machine-readable card
+- Serve as a replacement to both passport and visa
+
+This is not the case in the real world, but ICAO says it should be that way
+
+### Inadmissible passengers
+
+- Are in the responsibility of the operator
+- Need to be removed within 24 h or state asks the operator for a reasonable amount of time
+- Can be brought to their start of yourney or any state where they are admissible
+- Operators may charge the inadmissible passenger for their return
+
 ## 11 - Search and Rescue (SAR)
+
+### Ground signals by survivors
+
+- X = Require medical assistance
+- V = Require Assistance
+- Y = Yes
+- N = No
+- Arrow = Processing this direction
+
+### Ground signals by rescue team
+
+- ++ = We found some personell
+- LL = We found all personell
+- LLL = Operation completed
+
+### Colour codes for supplies
+
+- Red = Medical
+- Blue = Water and Food
+- Yellow = Blankets
 
 ## 12 - Security – Safeguarding International Civil Aviation against Acts of Unlawful Interference (ICAO Annex 17)
 
+### Noticing unlawful interference
+
+- Squawk 7500
+- Change FL by half of seperation (500 ft or 1000 ft above FL290/Non-RVSM)
+- Broadcast on this frequency or the emergency frequency
+- Land as soon as practible
+
+### Service provided by the state where unlawful interference happened
+
+- Navigational aids
+- Air traffic services
+- Permission to land
+- Parking at an isolated area (100m)
+- Refueling for continuance after resolving the situation
+
 ## 13 - Aircraft Accident and Incident Investigation
+
+### Serious injury
+
+- Hospitalization of more than 48 hours
+- Fracture of bone (unless simple like finger)
+- Injury of an internal organ
+- Burning of more than 5% of the body surface
