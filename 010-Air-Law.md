@@ -489,6 +489,51 @@ New EAT times must be transmitted if:
 
 ## 08 - Aeronautical Information Service (AIS)
 
+### AIRAC
+
+- Updated at an interval of 28 days
+- Distributed (no major change): 42 days in advance
+- Distributed (major change): 56 days in advance
+
+### AICs
+
+- Are identified by serial number and year
+- A checklist of active AICs is provided once a year
+
+### Means of publishing changes depending on duration
+
+- NOTAM: Up to 3 months
+- AIP supplement: More than 3 months
+- AIP amendment: Permanently
+
+All are issued immediately (in contrast to AIRAC, which is published at certain intervals)
+
+### Colors of AIC documents
+
+- White: Administrative (think of White House)
+- Yellow: ATC (think of ATC Yelling at you)
+- Pink: Safety (think of safety color, kind of)
+- Mauve: Danger Area Map (thnk of darkest color = danger)
+- Green: Maps and Charts (think of green grass)
+
+### Snowtam levels
+
+| Level | Condition | Braking performance |
+|:--:|:--:|--|
+| 5 | Good | 0.40 or more |
+| 4 | Medium to good | 0.39 - 0.36 |
+| 3 | Medium | 0.35 - 0.30 |
+| 2 | Medium to poor | 0.25 - 0.29 |
+| 1 | Poor | 0.25 or less |
+| 9 | Unrealiable |  -- |
+
+### Ashtam levels
+
+- Green: Normal
+- Yellow: Not currently dangerous
+- Orange: Dangerous below FL 250
+- Red: Dangerous above FL 250
+
 ## 09 - Aerodromes
 
 ## 10 - Facilitation (ICAO Annex 9)
