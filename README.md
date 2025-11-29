@@ -8,7 +8,7 @@ The information has been added based on what I felt should be documented after g
 
 | No. | Topic | Status |
 |:--:|--|:--:|
-| 010 | Air Law | WIP |
+| 010 | Air Law | Complete |
 | 021 | Airframe, Systems, Electrics, Power Plant | Not started |
 | 022 | Instrumentation | Not started |
 | 031 | Mass & Balance | WIP |
