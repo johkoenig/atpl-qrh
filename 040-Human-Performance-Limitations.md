@@ -69,4 +69,70 @@ Good safety culture:
 
 ## 040-02 Basics of Aviation Physiology and Health Maintenance
 
+### Hypoxia
+
+Types:
+- Hypoxic hypoxia: Lack of oxygen in the environment (i.e. by altitude)
+- Anemic hypoxia: Lack of blood to carry the oxygen (i.e. because carbon monoxide blocks the transporting capabilities)
+
+Effects of hypoxia:
+- Visual disturbances
+- Lack of concentration
+- Euphoria
+
+Notes:
+- 100% oxygen at 40.000 ft equals normal air at 10.000 ft
+- Normal people are able to compensate up to approx. 10.000 - 12.000 ft
+- Flying should be avoided 24h after scuba diving
+- Effective performance time (EPT) is less than Time of Useful Conciousness (TUC)
+
+(Rapid) decrompression sickness is causing nitrogen bubbles to be relased and following: 
+- The bends: Causing pain in joints like arms, ellbows, ...
+- The creeps: Causing a feel of ants under the skin (tickling)
+- The chokes: Causing pain in the capillaries of the lungs
+- The staggers: Causing a reduced blood supply in brain and nervous system
+
+Important altitudes:
+- 5 000 ft: night vision
+- 7 000 ft: mistakes
+- 8 000 ft: 100% O2 non-pressurised = MSL
+- 10 000 ft: judgement
+- 12 000 ft: short-term memory
+- 20 000 ft: critical
+- 32 000 ft: 100% O2 pressurised = MSL
+- 35 000 ft: TUC: 45s
+- 38 000 ft: 100% O2 pressurised = 8 000 ft
+- 40 000 ft: 100% O2 pressurised = 10 000 ft, TUC: 12s
+
+Thresholds:
+- 7 000 ft: reaction threshold (start to make mistakes)
+- 10-12 000 ft: disturbance threshold (capable of compensating)
+- 22 000 ft: critical threshold
+
+### Hypertension
+
+a.k.a. High blood pressure
+
+Can lead to 
+- heart attack (arteries come blocked)
+- stroke (blood vessels in brain clog or even burst, resulting in lack of blood flow to brain)
+
+Blood pressure values
+- Systolic: 120
+- Diastolic: 80
+
+### Angina
+
+Note: has nothing to do with what is commonly known as angina (i.e. throat pain)
+
+- Narrowing of the coronary arteries, restricting oxygen delivery to heart
+- can lead to sudden chest pain during high-demand phases, such as exercise 
+
+### Circulatory system
+
+- Pulmonary: Carries deoxygenated blood from heart to lungs (artery) and oxygenated back from lungs to heart (vein)
+- Systemic: Oxygen-rich blood from the heart to all other parts (artery) of the body and de-oxygenated back (vein)
+
+Arteries always move blood away from the heart, veins move it into the heart
+
 ## 040-03 Basic Aviation Psychology
