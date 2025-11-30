@@ -177,7 +177,9 @@ The exchange process is called "metabolism"
 
 - Somatogravic: Acceleration of the body/head (acceleration feels like climb)
 - Somatogyral: Turning of the body/head
-
+- Atmospheric perception: Tendency to fly lower due to missing references due to haze or fog
+- Empty field myopia (Black hole effect): Sensing higher than actually flying
+  
 ### Motion sickness
 
 - Dizziness, Headache, Nausea
@@ -187,13 +189,34 @@ The exchange process is called "metabolism"
 ### Eyes
 
 - Order: Corona, Iris, Pupil, Lens, Retina
-- Cones in the center, for color vision
-- Rods around, for night vision
+- Cones and Rods:
+  - Cones in the center, for color vision (photopic)
+  - Rods around, for night vision (scotopic)
+- Contact lenses are allowed for distant vision correction only
+- Eye adujustment times
+  - 10 seconds to bright
+  - 30 mins to dark
 
 ### Hearing losses
  
-- Conductive deafness (blocked ears by wax)
-- Noise-induced hearing loss
+- Conductive deafness (blocked ears, damage or eardrum or ossicles)
+- Noise-induced hearing loss (damaging receptors in the cochlea)
 - Presbycusis (by age)
+
+### Vestibular Apparatus
+
+- Semicircular canals (sensing rotational acc.)
+- Otoliths (sensing linear acc.)
+
+### Nervous systems
+
+- Autonomous (ANS): Involuntarily controls the rogans
+- Peripheral (PNS): connects the CNS to rest of body
+- Central (CNS): processes and sends out motor commands
+
+### Visual impairments
+
+- Cataract: clouding of the lens
+- Glaucoma: Pressure-rise in the eyeball
 
 ## 040-03 Basic Aviation Psychology
