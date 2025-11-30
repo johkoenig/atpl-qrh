@@ -69,11 +69,23 @@ Good safety culture:
 
 ## 040-02 Basics of Aviation Physiology and Health Maintenance
 
+### Axes of acceleration
+
+| Symbol | Name | Description |
+|:--:|:--:|--|
+| +Gx | Linear acc. | Horizontally forward |
+| +Gy | Transverse acc. | Horizontally to the side |
+| +Gz | Radial acc. | Vertical |
+
+Gz+ is the most intense as it moved the blood downwards in the body
+
 ### Hypoxia
 
 Types:
 - Hypoxic hypoxia: Lack of oxygen in the environment (i.e. by altitude)
-- Anemic hypoxia: Lack of blood to carry the oxygen (i.e. because carbon monoxide blocks the transporting capabilities)
+- Anaemic hypoxia: Lack of haemoglobin in red blood cells to carry the oxygen (i.e. because carbon monoxide blocks the transporting capabilities)
+- Histotoxic hypoxia: Lack of metabolism (oxygen exchange) at cell level
+- Ischemic/stagnant Hypoxia: Lack of oxygen in the brain due to reduced blood flow from +Gz
 
 Effects of hypoxia:
 - Visual disturbances
@@ -109,6 +121,11 @@ Thresholds:
 - 10-12 000 ft: disturbance threshold (capable of compensating)
 - 22 000 ft: critical threshold
 
+### Hyperventilation
+
+- The amount of CO<sub>2</sub> in the blood decreases, as well as the acidity level of the blood
+- More O<sub>2</sub> is in the blood, but due to wrong acid level, it cannot be transferred to the cells
+
 ### Hypertension
 
 a.k.a. High blood pressure
@@ -117,9 +134,15 @@ Can lead to
 - heart attack (arteries come blocked)
 - stroke (blood vessels in brain clog or even burst, resulting in lack of blood flow to brain)
 
-Blood pressure values
-- Systolic: 120
-- Diastolic: 80
+Blood pressure values, measured in the arteries
+- Systolic: 120 mmHg
+- Diastolic: 80 mmHg
+
+### Hypotension
+
+Caused by:
+- clinical shock (loosing too much fluid)
+- Medication on low blood pressure
 
 ### Angina
 
@@ -134,5 +157,43 @@ Note: has nothing to do with what is commonly known as angina (i.e. throat pain)
 - Systemic: Oxygen-rich blood from the heart to all other parts (artery) of the body and de-oxygenated back (vein)
 
 Arteries always move blood away from the heart, veins move it into the heart
+
+### Respiration
+
+The exchange process is called "metabolism"
+
+- Internal: Exchange of O<sub>2</sub> and CO<sub>2</sub> between blood capillaries and cells
+- External: Exchange of O<sub>2</sub> and CO<sub>2</sub> between blood capillaries and alveoli in the lungs
+
+### Types of cosmic radiation
+
+- Galactic radiation is steady and resonable predictable
+- Solar activity (normal, random and solar storms) is causing cancer
+
+- Both increase with altitude and latitude
+- Effects on health start with 100 mSv
+
+### Illusions
+
+- Somatogravic: Acceleration of the body/head (acceleration feels like climb)
+- Somatogyral: Turning of the body/head
+
+### Motion sickness
+
+- Dizziness, Headache, Nausea
+- Sweating, Hyperventilation
+- Vomiting
+
+### Eyes
+
+- Order: Corona, Iris, Pupil, Lens, Retina
+- Cones in the center, for color vision
+- Rods around, for night vision
+
+### Hearing losses
+ 
+- Conductive deafness (blocked ears by wax)
+- Noise-induced hearing loss
+- Presbycusis (by age)
 
 ## 040-03 Basic Aviation Psychology
