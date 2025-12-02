@@ -178,7 +178,9 @@ The exchange process is called "metabolism"
 - Somatogravic: Acceleration of the body/head (acceleration feels like climb)
 - Somatogyral: Turning of the body/head
 - Atmospheric perception: Tendency to fly lower due to missing references due to haze or fog
-- Empty field myopia (Black hole effect): Sensing higher than actually flying
+- Empty field myopia: Automatic focussing of the eye to near distance
+- Black hole effect: Sensing higher than actually flying over indistinguishable terrain (on approach)
+- False horizon: Especially during T/O due to lights at night
   
 ### Motion sickness
 
