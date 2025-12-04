@@ -84,7 +84,7 @@ Gz+ is the most intense as it moved the blood downwards in the body
 Types:
 - Hypoxic hypoxia: Lack of oxygen in the environment (i.e. by altitude)
 - Anaemic hypoxia: Lack of haemoglobin in red blood cells to carry the oxygen (i.e. because carbon monoxide blocks the transporting capabilities)
-- Histotoxic hypoxia: Lack of metabolism (oxygen exchange) at cell level
+- Histotoxic hypoxia: Lack of metabolism (oxygen exchange) at cell level (can be caused by alcohol)
 - Ischemic/stagnant Hypoxia: Lack of oxygen in the brain due to reduced blood flow from +Gz
 
 Effects of hypoxia:
@@ -144,12 +144,20 @@ Caused by:
 - clinical shock (loosing too much fluid)
 - Medication on low blood pressure
 
-### Angina
+### Angina / Coronary (artery) heart disease
 
 Note: has nothing to do with what is commonly known as angina (i.e. throat pain)
 
 - Narrowing of the coronary arteries, restricting oxygen delivery to heart
 - can lead to sudden chest pain during high-demand phases, such as exercise 
+
+Risks:
+
+- Smoking
+- High cholesterol
+- Lack of exercise
+- High blood pressure
+- Insulin resistance
 
 ### Circulatory system
 
@@ -221,4 +229,104 @@ The exchange process is called "metabolism"
 - Cataract: clouding of the lens
 - Glaucoma: Pressure-rise in the eyeball
 
+### Circadian rhythm
+
+25-h-Rhythm of wake and sleed, connected to body temperature. 
+
+- High body temperature: Phase of wakeness, during day. High performance
+- Low body temperature: Phase of sleep, during night. Low performance
+
+### REM sleep
+
+- Approximately every 90 mins, during 8 h sleep 4 -5 occurences
+- Brain is highly active, dreams
+
+### Obesity
+
+Can cause
+- Sleep apnoe
+- Type 2 diabetes
+- Arthritis
+- Hypertension
+
+### Diabetes
+
+- Type 1: Requires insulin injections -> unfit
+- Type 2: May require insulin injections -> Fit with considerations
+
+### Tropical deaseas
+
+- Avoid raw fruit & vegetables, local water
+- Killing diseases: Rabie,s Cholera, Dysentery
+
 ## 040-03 Basic Aviation Psychology
+
+### Types of memory
+
+- Sensory memory
+- Short-term memory / Working memory
+- Long-term memory
+  - Semantic memory (general knowledge)
+  - Procedural memory a.k.a. motor programmes (skills)
+  - Episodal memory (events)
+ 
+### Behaviours
+
+- Skill-based behaviour a.k.a. motor programmes (prone to environmental capture and action slip, i.e. errors of routine)
+- Rule-based behaviour (error of commission, depart from rules, interruptions, and violations)
+- Knowledge-based behaviour (confirmation bias, frequency bias)
+
+### Factors on Attention
+
+- **T**ask factors
+- **E**nvironmental facotrs
+- **M**otivation
+- **P**hysiological factors
+
+### Stages of experience
+
+- Cognitive: Thinking about each step of the action
+- Associative: Understanding why the action should be taken in that way
+- Autonomous: Executing the action automatically without conscious control
+
+### Types of errors 
+
+- Severity:
+  - Slip - Choosing the correct procedure, doing incorrect steps during the procedure
+  - Lapse - Executing the correct procedure, but missing steps of it or not completing it
+  - Mistake - Choosing and executing the wrong procedure, not knowing it was wrong
+  - Violation - Actively choosing and executing the wrong procedure, knowing about it
+- Visibility:
+  - Latent error: difficult to recognize, may lie dormant for long time
+  - Active error: done by people directly involved in the operation, directly visible
+
+### factors for errors
+
+- Internal
+  - Overconfidence
+  - Improper technique (incomplete or inaccurate mental models)
+  - Motivation
+- External
+  - Social environment
+  - Ergonomics
+  - Economics
+
+### Methods of adressing a request
+
+- Inquiry: Ask open-ended questions
+- Advocacy: Present rational argument
+- Metacommunication: Restrict your negative non-verbal cues
+
+### General adaption syndrome (GAS)
+
+- Alarm (fight-or-flight, release of adrenaline)
+- Resistance (cortisol release, mobilization)
+- Exhaustion (break-down)
+
+### Types of Stress
+
+- Imaginary stress or Anxiety (difference in how good a person needs to be vs. how good he/she thinks is necessary)
+- Cognitive / Psychological
+- Physiological
+- Non-professional (e.g. divorce)
+- Organisational (e.g. tight schedule) 
