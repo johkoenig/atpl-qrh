@@ -53,8 +53,15 @@ As a consequence, the frequencies propagate as follows:
 | HF | Ground + Sky wave | Ground + Sky wave |
 | Above | Space wave | Space Wave |
 
-602
 ## 02 Radio Aids
+
+### VHF DF classes
+
+- Class A: +- 2°
+- Class B: +- 5°
+- Class C: +- 10°
+- Class D: > 10°
+
 ## 03 Radar
 ## 06 Global Navigation Satellite Systems (GNSSs)
 ## 07 Performance Based Navigation (PBN)
