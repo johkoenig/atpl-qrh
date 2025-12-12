@@ -17,7 +17,7 @@ The information has been added based on what I felt should be documented after g
 | 040 | Human Performance & Limitations | Completed |
 | 050 | Meteorology | Not started |
 | 061 | General Navigation | Not started |
-| 062 | Radio Navigation | Not started |
+| 062 | Radio Navigation | Complete |
 | 070 | Operational Procedures | Not started |
 | 081 | Principles of Flight | Not started |
 | 090 | Communications | Complete |
