@@ -218,6 +218,8 @@ As a consequence, the frequencies propagate as follows:
 | C | altitude | 100 ft | 
 | S | datalink | 25 ft | longer P4 pulse |
 
+## 06 Global Navigation Satellite Systems (GNSSs)
+
 ### GNSS details
 
 - Actually not good enougth for aviation, therefore augmented by GBAS (LAAS) or SBAS (WAAS)
@@ -275,5 +277,42 @@ User-equivalent range error (UERE) includes all errors except of geometric(!) DO
 - Receiver quality
 - Dilution of Precision (DOP) - sattelites aligned on shallow angles
 
-## 06 Global Navigation Satellite Systems (GNSSs)
 ## 07 Performance Based Navigation (PBN)
+
+### General
+
+- RNP always requires approval and is operator dependent, but authorization only in certain cases (RNP AR)
+
+### PBN components
+
+- Navigational aid infrastructure
+- Navigation specification
+- Navigation application
+
+### RNAV and RNP levels
+
+- RNAV 10 (RNP 10) Oceanic/Remote
+- RNP 4: Oceanic/Remote
+- RNP 2: Oceanic/Remote and Continental
+- RNAV 5: Continental, Arr
+- RNAV 2: Continental, Arr, Dep
+- RNAV 1: Continental, Arr, Apch (exc Final), Dep
+- RNP 1: Arr, Apch (exc Final), Dep
+- RNP APCH: Approach (which has 0,3 accuracy and is SBAS-augmented)
+
+- RNP 0,3 is mostly for helicopters, for all phases exc Oceanic and Final
+- PBN defines linear lateral accuracy met in 95% of the time. During approach, also angular lateral accuracy is provided.
+- Advanced RNP (A-RNP) meets all of above from RNP 2 to RNP APCH)
+
+### Fixed radius paths (FRPs)
+
+- Radius-to-fix (RF) in terminal or approach procedures --> defined radius, arc length and fixes
+- Fixed Radius Turn (FRT) in enroute --> will be created by RNP system (usually 15 nm or 22.5 nm, above FL 195)
+
+### Total system error (TSE)
+
+- Path definition error (PDE) - inaccuracy in the database
+- Flight technical error (FTE) - inaccuracy of piloting (manual or autopilot)
+- Navigation system error (NSE) - inaccuracy of PBN systems
+
+The total system error is estimated as EPE (Estimated position error) to the pilot. It's a statistical value
