@@ -1,6 +1,6 @@
 # 021 Airframe, Systems, Electrics, Power Plant
 
-## 021-01 - System Design, Loads, Stresses, Maintenance
+## 01 - System Design, Loads, Stresses, Maintenance
 
 ### Design concepts
 
@@ -26,7 +26,7 @@
 - Aluminium shows grey/white powder, steel shows red/brown
 - Corrosive fluids: Mercury, battery acid, water, toilet waste
 
-## 021-02 - Airframe
+## 02 - Airframe
 
 ### Stability of the fuselage
 
@@ -40,7 +40,7 @@
 - Heated to assure strength, impact resistance (bird strike) and flexibility of material
 - Side windows are usually not heated, just defogged
 
-## 021-03 - Hydraulics
+## 03 - Hydraulics
 
 ### Basics
 
@@ -67,7 +67,7 @@
 - Restrictor value: Allow flow in one direction, limiting in the other
 - Automatic cut-out valve (ACOV): Returns fluid to reservior if pressure is above a predefined value
 
-## 021-04 - Landing Gear, Wheels, Tyres, Brakes
+## 04 - Landing Gear, Wheels, Tyres, Brakes
 
 ### Nose wheel steering
 
@@ -90,20 +90,74 @@
 - Any support (i.e. reverse thrust) will reduce the brake pressure
 - Autobrake value must be selected proper to the surface friction
 
-## 021-05 - Flight Controls
+## 05 - Flight Controls
 
-## 021-06 - Pneumatics – Pressurisation and Air Conditioning Systems
+## 06 - Pneumatics – Pressurisation and Air Conditioning Systems
 
-## 021-07 - Anti-icing and De-icing Systems
+## 07 - Anti-icing and De-icing Systems
 
-## 021-08 - Fuel System
+### Ice Detection Systems
 
-## 021-09 - Electrics
+- Pressure-Differential (Smith) Detector:
+  - Tube with small holes in front and larger holes in back
+  - Ice will block small holes, causing a drop in dynamic pressure, which leads to an indication
+  - Small holes can be freed by heating
+- Rosemount (Piezoelectric) Detector:
+  - Vibrating rod
+  - With ice aggregation, the frequency of vibration changes, which leads to an indication
+ - Hot Rod Detector:
+   - Ice build up on a standing rod, can be inspected visually
+   - Heater will free the rod from ice upon activation
 
-## 021-10 - Piston Engines
+### Ice Detection System Classification
 
-## 021-11 - Turbine Engines
+- Primary automatic: Ice protection is automatically enabled from ice detection
+- Primary manual: Ice protection is enabled by the crew based on ice detection indication
+- Advisory: Ice detection serves as a backup for other signs of ice aggregation.
 
-## 021-12 - Protection and Detection Systems
+### Anti-Ice Systems
 
-## 021-13 - Oxygen Systems
+- Fluid: Used for leading edges of wings
+- Hot bleed air: Used for turbine engine intakes
+- Electric: For small parts like pitot tubes, static ports and windshields (3-phase AC there)
+
+### De-Ice Systems
+
+- Boots: Used on leading edges, need a certain amount of ice to work
+
+## 08 - Fuel System
+
+### Tank types
+
+- Integral: Directly in the structure, mostly in wings of large aeroplanes
+- Drum/Rigid tanks: Most common for small aeroplanes
+- Bladder/Flexible: Very seldom for primary tank, often used for range extension
+
+### Details of airliner fuel system
+
+- Check values (non-return valves) in baffles assure that fuel is concentrated at the wing root, where the pump is.
+- LP pump takes fuel from tank to line
+- HP pump takes fuel from line to engine
+
+Failure of LP pump can lead to cavitation in HP pump at high altitudes
+
+## 09 - Electrics
+
+### Circuit breakers
+
+- Magnetic: Quick response, due to magnetic field
+- Thermal: Slowed response, as bimetallic strip takes time to heat up during overcurrent
+
+### Conversion of DC and AC
+
+- Inverter: DC to AC
+- Rectifier: AC to DC
+- Transformer Rectifier (TRU): 115/200V AC to 24V DC
+
+## 10 - Piston Engines
+
+## 11 - Turbine Engines
+
+## 12 - Protection and Detection Systems
+
+## 13 - Oxygen Systems
