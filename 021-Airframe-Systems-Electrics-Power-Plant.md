@@ -92,7 +92,66 @@
 
 ## 05 - Flight Controls
 
+### Primary and secondary flight controls
+
+- Primary: Rudder, Elevator, Aileron, Roll control (REAR)
+- Secondary: Flaps, Slats, Stabilizer, Speed Brake, Trim Tabs (FSSST)
+
+### Flight control systems
+
+- Manual: Mechanical by cable or bar
+- Partially powered: Mechanical, assisted by hydraulics
+- Fully powered: Only hydraulic
+- Fly-by-Wire: Electric sensing, processing via computer
+
+Last two are irriversible, requiring artifical feel, but no gust locks
+
+### FBW control modes
+
+- Normal Law / Normal Mode: All protections available
+- Alternate Law / Secondary Mode: Some protections available
+- Direct Law / Direct Mode: No protections available, but warnings are still present
+
+### Trimming
+
+- Reversible: Trim Tab
+- Irriversible: Zero-force point (but no control movement on elevator axis)
+
+### Fly-By-Wire Stall Protection
+
+- Alpha prot = pitch control
+- Alpha floor = power control (TOGA thrust, if necessary)
+- Alpha max = max. allowed pitch
+
+### Rudder deflection protection
+
+- Rudder ratio changer
+- Blow-back (constant force)
+- Variable Stops
+
 ## 06 - Pneumatics – Pressurisation and Air Conditioning Systems
+
+### Pressurization concept
+
+- Air taken from HP compressor stage of engine (bleed air)
+  - On ground: Pack cooling fans provide airflow for air-con
+- Constant inflow into cabin (for ventilation)
+- Regulated outflow via outflow valve
+- Emergency valves
+  - Positive pressure relief valve (if max. diff. pressure + 0.25 psi)
+  - Negative pressure relief value (if outside > 0.5 - 1 psi of inside)
+
+### Gauges
+
+- Cabin altitude
+- Cabin rate of change
+- Diff. pressure (usually max. 7-9 psi)
+- Warning if cab. alt. > 10.000ft
+
+### Malfunction of bleed air
+
+- Bleed duct leak warning appears in cockpit
+- Reduced airflow into cabin
 
 ## 07 - Anti-icing and De-icing Systems
 
