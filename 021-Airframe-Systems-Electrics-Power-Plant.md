@@ -215,6 +215,21 @@ Failure of LP pump can lead to cavitation in HP pump at high altitudes
 
 ## 10 - Piston Engines
 
+### Magnetos
+
+- When turned OFF, both primary and secondary circuit are grounded
+- If engines still operates, one of the grounding wires (usually the primary) is broken
+
+### Turbochargers
+
+- Ground-boosted: More power is given at all altitudes, causing more stress on the engine
+- Altitute-boosted: Ground power is kept until high altitutde (excess power is avoided by wastegate)
+
+### Critical Engine (ME)
+
+- The one with the downgoing blade on the inside is critical (for clockwise, thats left)
+- Everything left is critical: left engine, skid left, yaw left, left crosswind (but NO slip indication)
+
 ## 11 - Turbine Engines
 
 ## 12 - Protection and Detection Systems
