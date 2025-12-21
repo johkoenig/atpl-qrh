@@ -232,6 +232,132 @@ Failure of LP pump can lead to cavitation in HP pump at high altitudes
 
 ## 11 - Turbine Engines
 
+### Compression ratios
+
+- Axial flow compressor: ~1.3:1 per stage (totalling in 35:1 to 50:1)
+- Centrifugal compressor: 4:1
+
+### Basic gas turbine
+
+- Air intake
+- Compressor (increase of pressure, at slightly decreasing velocity)
+- Combustion chamber (constant pressure)
+- Turbine (decrease of pressure, slight increase in velocity)
+- Exhaust (decrease in velocity, for noise abatement)
+
+### Air intake
+
+- Generally slightly divergent
+- Optional inlet guide vanes for ideal air flow at first compressor stage
+- Velocity decreases, pressure and temperature increase
+
+### Axial Compressor parts
+
+- Rotor: Increase velocity & pressure (converts mech. energy from shaft into kinetic & pressure energy)
+- Stator: Increase (static) pressure, reduce velocity & dynamic pressure (converts kinetic energy into pressure energy)
+
+In short: Rotor increases both p & v, stator only p. v is roughly constant after each stator + rotor stage.
+
+### Compressor stall
+
+- Occurs when AoA at compressor rotor is too high (= high RPM, low airflow speed)
+- Stall happens in front, air stagnation happens in rear
+
+### Combustion chamber
+
+- Diffuser (divergent) reduces velocity & increases static pressure, for optimal combustion
+- Combustion process happens at (theoretically) constant pressure, thus increasing temperature
+
+### Axial turbine types
+
+| Type | Nozzle (fixed part) | Turbine (rotating part) | Principle |
+|--|--|--|
+| Impulse | v↑ p↓ | v↓ p=const. | U-shaped rotor blades, actio=reactio |
+| Reaction | v=const. p=const. | v↑ p↓ (T↓) | wing-shaped rotor blades, aerodynamic forces |
+
+Pressure-related Mnemonics: IDC and RCD (Also note that pressure never rises in the turbine)
+
+### Turboprop and Turbofan/jet turbine
+
+- Turboprop: Kinetic energy (velocity) is converted into mechanical energy (shaft)
+- Turbofan/jet: Potential energy (pressure) is converted into kinetic energy (velocity)
+
+- Mnemonics: EPK and EKM
+
+### Active clearance control
+
+- Try to keep minimum distance between blades and outer case
+- Distance controlled by cooling air to outer case(!)
+
+### Exhaust system
+
+- Primary purpose: Increasing speed of exhaust gas, for extra thrust
+- Secondary purpose: Reduce speed of gas (with divergent section), to reduce noise
+
+Speed increase requires convergent nozzle for subsonic, divergent nozzle for supoersonic gas speeds
+
+### Turboprop power setting ranges
+
+- Alpha: Flight idle to max. power
+- Beta: Just below flight idle to max. reverse
+
+### FADEC
+
+- Includes the engine controls and the sensors
+- Redundant, to cover failure of a single sensor channel
+- In piston engines: Can also control ignition time
+
+### Gearboxes
+
+- Accessory/Auxiliary gearbox: Connected to the HP shaft, lubricated by turbine oil
+- Supplemental gearbox: Connected to the LP shaft, own lubrication
+
 ## 12 - Protection and Detection Systems
 
+### Rain protection on windscreens
+
+- Chemical or Wipers
+- Can be used simultaneously
+
+### Smoke detectors
+
+- Used where only slow airflow is happening (cargo, lavatory, avionics bay, ...)
+- Based on ions or light refraction (labyrinth detector)
+
+### Fire detectors
+
+- Usually double-loop systems, as they are more reliable
+- Flying with 1 inoperative loop can be considered, if AFM permits
+- Gas-filled detectors:
+  - Temperature-based, with increase in T the pressure increases, causing the fire warning
+  - If broken, outside pressure decreases, causing a fault alert
+ - Continous loop fire detectors:
+   - With heat, resistance decreases and capacitance increases
+
+### Fire extinguishers per engine
+
+- 1 bottle per engine, with
+- 2 discharges per designated fire zone
+
 ## 13 - Oxygen Systems
+
+### Hazards
+
+- Can spontaneously catch fire with oil or grease
+
+### Oxygen mask modes
+
+- Normal: O2-concentration same as altitude, on demand
+- 100%: 100% O2, on demand
+- Emergency: 100% o2, constant delivery
+
+### Oxygen generators/sources
+
+- Gaseous: Can be regulated
+- Chemical: Once started, will run until out of fuel. Produces heat during operation
+
+### Important cabin altitudes
+
+- 8000 ft: Warning
+- 10000 ft: Alert
+- 15000 ft (before): Automatic deployment of masks
