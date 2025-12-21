@@ -9,8 +9,8 @@ The information has been added based on what I felt should be documented after g
 | No. | Topic | Status |
 |:--:|--|:--:|
 | 010 | Air Law | Complete |
-| 021 | Airframe, Systems, Electrics, Power Plant | Not started |
-| 022 | Instrumentation | Not started |
+| 021 | Airframe, Systems, Electrics, Power Plant | Complete |
+| 022 | Instrumentation | WIP |
 | 031 | Mass & Balance | Complete |
 | 032 | Performance | Not started |
 | 033 | Flight Planning & Monitoring | Not started |
