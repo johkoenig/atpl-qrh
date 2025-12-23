@@ -39,6 +39,18 @@
 - M = TAS / LSS
 - LSS = 38,95 x sqrt(T in Kelvin)
 
+### AoA sensors
+
+- Vane Sensor: Free-flowing vane
+- Null-seeking (slotted) probe: Two slots, seeking pressure equvalence
+
+Both use piezoelectric sensing and are prone to position error
+
+### Altitude sensors
+
+- Sensitive Altimeter: Using two aneroid capsules, and mechanical link to display
+- Servo altimeter: Electric sensing to aneroid capsules (requires power, but less lag)
+
 ## 03 - Magnetism – Direct Reading Compass and Flux Valve
 
 ## 04 - Gyroscopic Instruments
