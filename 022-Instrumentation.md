@@ -59,6 +59,38 @@ Both use piezoelectric sensing and are prone to position error
 
 ## 06 - Aeroplane: Automatic Flight Control Systems
 
+### Stabilization (Basic) Modes / Inner loop
+
+Stabilizing the aircraft around its center of gravity
+
+- Pitch angle hold
+- Bank angle hold / Wings level
+- Vertical Speed
+
+### Guidance functions / Outer loop
+
+Controlling the movement of the center of gravity in 3-dimensional space
+
+- Vertical: IAS, ALT, VNAV (FPA), G/S, ...
+- Lateral: HDG, LNAV (TRK), LOC, VOR, ...
+- Mixed: T/O, G/A, APP
+
+### Temporary override modes
+
+- CWS: A/P stays engaged, control movements are sensed and applied by A/P system, new attitude is kept
+- TCS: A/P is disengaged while button is pressed, A/C is flown manually, after release of button former A/P mode is re-engaged
+
+### Autopilot phases
+
+- Initial: Attitude change to obtain a new trajectory
+- Capture: Predefined rate of change to capture the desired parameter without over-/undershoot
+- Tracking/Hold: The set parameter will be maintained
+
+### Autoland failure modes
+
+- Fail-operational: If one A/P fails, the remaining A/P can perform the autoland (approach, flare, landing) as a fail-passive system
+- Fail-passive: If the A/P fails, no significant out-of-trim condition occurs, but no autoland is possible
+
 ## 08 - Trims – Yaw Damper – Flight Envelope Protection
 
 ## 09 - Autothrust – Automatic Thrust Control System
