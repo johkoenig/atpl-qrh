@@ -36,8 +36,7 @@
 - EAS = CAS corrected for compressibility
 - TAS = EAS corrected for density
 
-- M = TAS / LSS
-- LSS = 38,95 x sqrt(T in Kelvin)
+- TAS = CAS + (CAS/600 * Alt(FL))
 
 ### AoA sensors
 
@@ -51,11 +50,121 @@ Both use piezoelectric sensing and are prone to position error
 - Sensitive Altimeter: Using two aneroid capsules, and mechanical link to display
 - Servo altimeter: Electric sensing to aneroid capsules (requires power, but less lag)
 
+### ADIRU
+
+- ADC: Air data computer, can be restarted in-flight
+- IRU: Inertial reference unit, needs alignment on ground
+
+### Mach Speed
+
+- M = TAS / LSS
+- M = sqrt(p_dyn / p_stat)
+- LSS = 38.95 * sqrt(T in K)
+
+### Temperatures
+
+- TAT = SAT * (1 + 0.2 * M^2)
+- SAT = TAT / (1 + K * 0.2 * M^2)
+
+Recovery factor "K" is only applied in one direction as the real-world calculation with the actual instrument.
+
 ## 03 - Magnetism – Direct Reading Compass and Flux Valve
+
+### Direct reading compass error
+
+Amount of over-/understeer (Bank + Lat/2), depending on hemisphere:
+- Northern: ANDS and UNOS
+- Southern: SAND and ONUS
+
+Max allowed error with runway aligned: +-10°
+
+### Magnetism
+
+- Hard iron: Permanent, i.e. determined by measurement, compensated by deviation
+- Soft iron: Temporary, i.e. induced by earths magentic field
+
+### Compass correction
+
+- Compass swing: Amount of deviation due to aircraft
+- Compass calibration: Reading residual deviation, noting on card
+- Compass compensation: Correction of the deviation
+
+### Gyromagnetic compass
+
+- Combination of gyro and magentic compass
+- FEAT: Flux Valve -> Error detection -> Amplifier -> Torque Motor
+- Slaved/Free: Gyro is (not) connected to a flux valve
 
 ## 04 - Gyroscopic Instruments
 
+### Gyro spin errors
+
+- Vertical axis: Only topple
+- Horizontal axis: Drift and topple
+
+### Air-driven attitude indicator errors
+
+- Roll error (pendulus error)
+- Pitch error (erection error)
+
+On acceleration, the ADAI moves up + right
+
+### Standard turn
+
+- Rate-of-turn = Bank angle / TAS
+- 3° per second
+
+### ADI (Attitude display indicator)
+
+- AI: Attitude indicator
+- FDI: Flight director indicator (GS, LOC, VOR)
+
+### Skid and Slip
+
+- Slip: Overbank (Ball & turn same)
+- Skid: Underbank (Ball & turn opposite)
+
+### Gyro error
+
+- Real wander: Wander of the gyro axis (e.g. mechanical failure)
+- Transport wander: Change in orientation in space (flying A->B)
+- Apparent wander: wander of the earth system
+- Gimbal error: In turns, due to tue errection system
+
+### Axis & degrees of freedom
+
+- Turn coordinator: 1x, vertical
+- Attitude indicator: 2x, vertical
+- Dyn. Gyro: 2x, horizontal
+
+### AHRS (Attitude & Heading Reference System)
+
+- Accelerometers
+- Gyroscopes
+- Magnetometers
+
 ## 05 - Inertial Navigation
+
+### General Systems
+
+| System | Age | Technology | Alignment | Components | Alignment time |
+|--|--|--|--|--|--|
+| INS | older | mechanical | True north + horizontal | 3 Gyros, 2 Accelerometers | 15 - 20 mins |
+| IRS | newer | laser or fibre optic gyros | Fixed in aircraft | 3 Gyros, 3 Accelerometers | 10 mins |
+
+The higher the Lat, the more time it takes to align. Impossible > 78° N/S
+
+### Alignment of IRS
+
+- Detect parity vector
+- Detect earth inclination
+- Rectify north
+- Calculate latitude from rotation
+
+### Finding drift of system at the end of the flight
+
+- Final position difference / Operating time = NM/h
+- Alternative: Ground speed by IRS/INS when parked
 
 ## 06 - Aeroplane: Automatic Flight Control Systems
 
@@ -190,6 +299,8 @@ At first, the capabilities have to be reported by AFN (Air Traffic Facilities No
 
 - 4200 - 4400 MHz FM
 - Two antennas, spaced to avoid interference
+- If one RA fails: New DH
+- If two RAs fail: No GWPS
 
 ### Stall warning system (SWS)
 
@@ -197,8 +308,85 @@ At first, the capabilities have to be reported by AFN (Air Traffic Facilities No
 - Stall warning is created based on CAS, not AoA
 - Margin is 5 kts or 5% CAS, whichever is greater
 
+### TCAS
+
+- Mode II uses XPDR Mode S datalink to coordinate RAs
+- In high-density areas, range is reduced
+- Up to 30 aircraft
+- Vertical commands only
+- Bearing by directional antennas
+- Distance by signal time measurement
+- Other aircraft XPDR Mode A: TA only
+- Other aircraft XPDR Mode C: TA + RA
+- Other aircraft XPDR Mode S: TA + coordinated RA
+
+### GPWS Modes
+
+| Mode	| Meaning |	Initial Aural Alert	 | Second Aural Warning |
+|--|--|--|--|
+| Mode 1 | Excessive descent rate | SINK RATE, SINK RATE | WHOOP WHOOP PULL UP 
+| Mode 2 | 	Excessive terrain closure rate (=dangerous ground proximity) | TERRAIN TERRAIN | WHOOP WHOOP PULL UP 
+| Mode 3 | Altitude loss after take-off or go-around | "DON`T SINK" 	| NONE
+| Mode 4a	| Unsafe Terrain Clearance with Landing Gear not Down | TOO LOW GEAR, TOO LOW TERRAIN	| NONE
+| Mode 4b	| Unsafe Terrain Clearance with Flaps not in Landing Configuration | TOO LOW FLAPS or TOO LOW TERRAIN | NONE
+| Mode 5	| Downward glideslope deviation | GLIDESLOPE, GLIDESLOPE at half volume | GLIDESLOPE, GLIDESLOPE at full volume
+| Mode 6a | When passing the decision height | MINIMUMS, MINIMUMS	| NONE
+| Mode 6b |	Excessive bank angle | BANK ANGLE, BANK ANGLE	| NONE
+| Mode 7 | When expecting or already encountering wind shear | CAUTION WINDSHEAR | WINDSHEAR, WIDSHEAR
+
+Mnemonic: **S**end **t**he **d**runk to **g**o to **France** to **g**et **m**y **b**est **w**ine
+
+### TAWS / HTAWS
+
+- Enhancing GPWS to EGPWS
+- While GPWS just looks down (Radio alt.), the TAWS has a 3D terrain database
+- Response time for caution: 40 - 60s
+- Response time for warning: 20 - 30s
+
 ## 13 - Integrated Instruments – Electronic Displays
+
+### EFB software types
+
+- Type A: Malfunction has no effect on safety
+- Type B: Malfunction may cause a minor failure condition
+
+### Vision Systems
+
+- Synthetic Vision System (SVS): Shows synthetic data from database in PFD
+- Enhanced Vision System (EVS): Generates real-time imaginary on PFD from external sensors (Camera, IR)
+
+### HUD components
+
+- Colimated display
+- Projector
+- Computer
+
+### ND Modes
+
+- MAP or ARC: Symbol at bottom, Track Up, +-45° view
+- VOR or ROSE/APP: Symbol at center, Heading Up, 360° view
+- PLAN: True North Up
 
 ## 14 - Maintenance, Monitoring and Recording Systems
 
+- FDR collecting flight data for investigation purposes
+- CVR collecting flight crew deck audio data for investigation purposes
+- FDM/ACMS collecting flight data for safety and training
+
 ## 15 - Digital Circuits and Computers
+
+### Components of a computer
+
+- Hardware: Everything physical
+- Software: OS, programs, databases
+
+### Bus types
+
+- Internal: Connecting internal parts of a PC
+- External: Connecting external components
+
+### Busses 
+
+- adress
+- data
+- control
