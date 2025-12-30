@@ -54,8 +54,65 @@ Output:
 
 ## 02 - Visual Flight Rule (VFR) Navigation
 
+### Suitable ground features
+
+Linear features (parallel for following, perpendicular for time check):
+
+- Railways
+- Motorways (but not small roads)
+- Large Rivers
+- Coastline
+- Powerlines (esp. in winter when snow is covering ground features)
+
+Individual ground features (unique and distinguishable):
+
+- Airports with paved runways
+- Special buildings (e.g. power plant)
+- High masts (good for flying low)
+- Large lakes (good for flying high)
+- Towns with unique features (e.g. a special building)
+
+### Getting lost procedure
+
+- Fuel not critical: Note time, ask ATC for help
+- Ful critical: PAN PAN 121.5
+  
 ## 03 - Great Circles and Rhumb Lines
 
+### Features of the lines
+
+- Rhumb line has a fixed angle, i.e. it cuts all meridians at the same angle
+- Great 
+
+### Formulas
+
+- Convergency = Diff. in Long x sin (mean Lat)
+  - Northern Hem.: East is negative, West is positive
+  - Southern Hem.: West is negative, East is positive
+- Conversion angle at start/End = 1/2 of Convergency
+
+### Convergency on lambert chart
+
+- With given constant of cone: Convergency = Diff. in Long x Constant of cone
+- With given standard parallels A and B: Convergency = Diff. in Long x sin(mean(A,B))
+
 ## 04 - Charts
+
+### Projections
+
+| Chart | Description | Parallel of origin | Shape of great circles |
+|--|--|--|
+| Mercator | Wrapped around the equator | 0° | Concave towards equator |
+| Azimuth (e.g. Polar) | Piece of paper placed somewhere | varying / 90° for Polar | Concave towards the centre point |
+| Lambert (conical) | One parallel of origin (sometimes between 2 standard parallels) | Mean of parallels | Concave towards the parallel of origin |
+
+### Scaling
+
+Small scale = large area
+
+- A world map (1:100.000.000) is considered a small scale
+- A city map (1:50.000) is considered a large scale
+
+Think of scales as fractures, i.e. 1/100 is larger than 1/1000
 
 ## 05 - Time
