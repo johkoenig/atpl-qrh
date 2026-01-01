@@ -19,11 +19,31 @@
 - Earth is farthest from the sun in July, closest in January
 - Inclination of earths rotational axis is 23.44°
 - Equinox (same length days) is about 21st September and 21st March
+- Solstice (most inclined towards sun) is about 21st december and 21st june
 
 ### Distances along lat/long
 
 - N/S: 1° = 60 NM
 - E/W: 1° = 60 NM x cos(lat)
+
+### Wind corrections using MDR (mental dead reckoning)
+
+| Wind Angle | % of crosswind speed |
+|--|--|
+| 15° | 25 % |
+| 30° | 50 % |
+| 45° | 75 % |
+| 60° | 100 % |
+
+| 90° - Wind angle | Amount of head/tailwind |
+|--|--|
+| 10° | 0.2 |
+| 20° | 0.3 |
+| 30° | 0.5 |
+| 40° | 0.6 |
+| 50° | 0.8 |
+| 60° | 0.9 | 
+
 
 ### Directions
 
@@ -50,7 +70,26 @@ Output:
 - Course is Heading + drift
 - Groundspeed is at wind speed point
 
-### Rhumb line track
+### Accuracy factors for dead recknoning
+
+- time since last position update
+- accurary of the forecasted wind
+- accuracy of heading
+
+### Climb and descent gradients
+
+- General:
+  - % = tan(angle)
+  - angle = arctan(%)
+  - % = angle / 60 (for small angles up to 10°, error is < 3%)
+- By distance:
+  - Angle = vertical dist in ft / 100 / ground dist in NM
+  - % = vertical distance (ft) / 60 / ground dist in NM
+- By speeds:
+  - % = sink rate (ft/min) / ground speed (kts)
+- Precise Math:
+  - % = vertical dist in ft / ground dist in ft
+
 
 ## 02 - Visual Flight Rule (VFR) Navigation
 
@@ -82,7 +121,7 @@ Individual ground features (unique and distinguishable):
 ### Features of the lines
 
 - Rhumb line has a fixed angle, i.e. it cuts all meridians at the same angle
-- Great 
+- Great circle is the shortest distance
 
 ### Formulas
 
@@ -101,7 +140,7 @@ Individual ground features (unique and distinguishable):
 ### Projections
 
 | Chart | Description | Parallel of origin | Shape of great circles |
-|--|--|--|
+|--|--|--|--|
 | Mercator | Wrapped around the equator | 0° | Concave towards equator |
 | Azimuth (e.g. Polar) | Piece of paper placed somewhere | varying / 90° for Polar | Concave towards the centre point |
 | Lambert (conical) | One parallel of origin (sometimes between 2 standard parallels) | Mean of parallels | Concave towards the parallel of origin |
@@ -116,3 +155,17 @@ Small scale = large area
 Think of scales as fractures, i.e. 1/100 is larger than 1/1000
 
 ## 05 - Time
+
+### Standard time
+
+- Theoretically 24 time zones around earth
+- East = Going Fast = Later than UTC
+- West = Going Slow = Earlier than UTC
+- Meaning of "UTC+X": ST = UTC + X (i.e. 14:00 ST = 12:00 UTC for UTC+2)
+
+### Local mean time
+
+- Derived from solar day
+- Sun is highest at 12:00pm
+- UTC is LMT at Greenwich
+- Calculation: 4 minutes per Degree Longitude ( +E, -W)
