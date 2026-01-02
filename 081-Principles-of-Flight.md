@@ -60,6 +60,7 @@ According to Bernoulli, the total pressure is constant p_t = p + q = const.
 |--|:--:|:--:|:--:|
 | Trailing edge flaps | ↑↑ | ↑↑ | ← |
 | Leading edge flaps / slats | ↑ | ↑ | → |
+| Spoilers | ↓ | ↓ | → | 
 
 ### Three-dimensional airflow around an aeroplane
 
@@ -101,24 +102,57 @@ According to Bernoulli, the total pressure is constant p_t = p + q = const.
 
 ### The relationship between lift coefficient and speed in steady, straight, and level flight
 
+c_L ~ v^2
+
 ### CLMAX augmentation
 
 - Leading edge flaps:
   - Krueger flaps
-  - Slats
   - Variable camber flaps
-- Trailing edge flaps
-  - Plain flaps
+  - Slats (increase in max AoA and c_D, but c_I will stay the same)
+- Trailing edge flaps: (in increasing c_L/c_D ratio)
   - Split flaps
+  - Plain flaps
   - Slotted flaps
   - Fowler flaps
-- Spoilers
+- Spoilers / Speed brakes
 
 ### Means to reduce the CL–CD ratio
 
+- Spoilers (slight reduce of c_L, high increase of c_D)
+- Speed brakes (only increase of c_D)
+- Flaps (but due to higher c_L, airplane can fly slower)
+
 ### Aerodynamic degradation
 
+- Icing causes an increasing stall speed and reduction of c_LMAX and max. AoA
+
 ## 02 - High Speed Aerodynamics
+
+### Relation between speeds
+
+- ECITM on climb: left decreases, right increases
+- ECITM on descend: right increases, left decreases
+
+### Shock waves
+
+Supercritical wing profiles have a weaker shock wave than conventional airfoils
+
+- Bow wave in front of leading edge of wing
+- Perpendicular or normal shock wave on upper wing surface
+
+### Effects of a normal/perpendicular shockwave
+
+- Air temperature increases
+- Static pressure increases
+- Air density increases
+- LSS increases
+- Total pressure increases
+- Speed of airflow decreases (to less than Mach 1 for normal shockwave, still above Mach 1 for oblique shockwave)
+
+### Mach tuck / Tuck-under
+
+CP moves backward -> Nose-down moment
 
 ## 03 - Stall, Mach Tuck and Upset Prevention and Recovery
 
