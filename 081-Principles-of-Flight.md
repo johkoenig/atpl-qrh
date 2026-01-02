@@ -147,7 +147,7 @@ Supercritical wing profiles have a weaker shock wave than conventional airfoils
 - Static pressure increases
 - Air density increases
 - LSS increases
-- Total pressure increases
+- Total pressure decreases
 - Speed of airflow decreases (to less than Mach 1 for normal shockwave, still above Mach 1 for oblique shockwave)
 
 ### Mach tuck / Tuck-under
