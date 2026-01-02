@@ -141,6 +141,8 @@ Supercritical wing profiles have a weaker shock wave than conventional airfoils
 - Bow wave in front of leading edge of wing
 - Perpendicular or normal shock wave on upper wing surface
 
+In general, before the shockwave airflow is supersonic, behind its subsonic
+
 ### Effects of a normal/perpendicular shockwave
 
 - Air temperature increases
