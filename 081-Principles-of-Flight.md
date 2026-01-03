@@ -134,6 +134,11 @@ c_L ~ v^2
 - ECITM on climb: left decreases, right increases
 - ECITM on descend: right increases, left decreases
 
+### Compressibility effects
+
+- Compression of air primarily increases its density
+- Secondary effects are an increase in temperature and pressure
+
 ### Shock waves
 
 Supercritical wing profiles have a weaker shock wave than conventional airfoils
@@ -141,7 +146,14 @@ Supercritical wing profiles have a weaker shock wave than conventional airfoils
 - Bow wave in front of leading edge of wing
 - Perpendicular or normal shock wave on upper wing surface
 
-In general, before the shockwave airflow is supersonic, behind its subsonic
+In general, before the shockwave airflow is supersonic, behind its subsonic.
+
+### Forming on shock waves on the wing
+
+- Shockwave builds up on the thickest part of the upper wing, at first.
+- On the lower wing, it build later, but stays behind the upper shockwave.
+- With increasing Mach, the shockwave moves back.
+- Increasing AoA leads to an increase of the shockwave
 
 ### Effects of a normal/perpendicular shockwave
 
@@ -152,15 +164,168 @@ In general, before the shockwave airflow is supersonic, behind its subsonic
 - Total pressure decreases
 - Speed of airflow decreases (to less than Mach 1 for normal shockwave, still above Mach 1 for oblique shockwave)
 
-### Mach tuck / Tuck-under
+Mnemonic: DSSS increase (**D**ensity, **S**tatic temp., **S**tatic pressure, Loc. Speed of **S**ound)
 
-CP moves backward -> Nose-down moment
+### Change in lift and drag above M_crit
+
+- Drag increases up to 0.98 M, then decreases again to normal (subsonic) level
+  - The additional drag is called wave drag an a combination of energy drag and boundary layer seperation
+- Lift increases from 0.4 M to 0.81 M, then decreases towards 0.89 M then increases (to a lower level) to 0.98 M, then decerases again
+
+Note:
+- Drag divergence mach number M_DD is just above M_crit
+- For conventional wings, the L/D-ratio is reduced above M_crit, for supercritical wings, it is increased
+
+### Influence on stall speed and c_LMAX
+
+- Above 0.4 M, c_LMAX start to decrease until 1.0 M, then increases again
+- Consequently, the stall speed increases 
+
+### Influence of airfoil on M_crit
+
+M_crit can be increased by:
+
+- Smaller leading edge radius
+- Smaller thickness to chord ratio
+- Smaller camber
+- Smaller AoA (due to less acceleration on the top surface)
+- Less load and more aft CG on aircraft (due to lesser AoA)
+- More swept back wing (due to increase of effective chord)
+
+Think of wings of a fighter jet: Flat, thin, swept, flying at low AoA
 
 ## 03 - Stall, Mach Tuck and Upset Prevention and Recovery
 
+### Mach tuck / Tuck-under
+
+- CP moves backward -> Nose-down moment
+- Downwash behind the shockwave on wing is reduced -> Reduced AoA on elevator -> Reduced elevator downforce
+- AC also moves, from 25 % to 50 %
+
+### Low speed buffeting
+
+- Stages
+  - Buffet initiation
+  - Buffet onset
+  - Deterrent (limiting) buffet
+
+### High speed buffetting
+
+- Should be avoided by all means
+- Safety margin of 0.3g is added -> Use 1.3g in graphs
+
+### Anti-Icing Holdover time (HOT)
+
+- Starts at begin of de-icing
+- Humidity reduces the HOT
+
+### CP movement during stall
+
+- Straight wing: CP moves back (wing root stalls first)
+- Swept-back wing: CP moves forward (wing tip stalls first)
+
+### Stall recovery (acc. EASA)
+
+- Pitch 
+- Bank
+- Power
+- Stabilize (but not to forcefully to avoid entering a secondary stall)
+
+Real life: Pitch Power Bank
+
+### Max. Altitudes
+
+- Aerodynamic ceiling: max. altitude with 1g (coffin corner)
+- Service ceiling: 100 ft/min (prop) / 500 ft/min (jet) remaining
+- Absolute ceiling: 0 ft/min climb rate
+
+### Limitation of span-wise air movement on wing
+
+- Wing fences on the upper surface
+- Vortilons on the lower surface, which cause a vortex to the upper surface only at high AoA 
+
 ## 04 - Stability
 
+### Stability in general
+
+- Static: reaction to unintentional pilot action (the "ball in the bowl")
+- Dynamic: reaction to oscillation over time
+
+Dynamic stability requires static stability
+
+### Directions
+
+- Longitudonal stability: Pitch
+- Lateral stability: Roll
+- Directional stability: Yaw
+
+### Dutch roll
+
+- High static lateral (roll) stability
+- Low static directional (yaw) stability
+- Periodic motion, short-period
+- Can be counteracted by Yaw Damper (YD)
+- If YD fails, reduce speed and altitude
+
+### Spiral dive
+
+- Low static lateral (roll) stability
+- High static directional (yaw) stability
+- Aperiodic motion
+
+### Phuygoid
+
+- Long-period oscillations (20 - 100 seconds) in pitch
+- Think of a typical paper plane flying
+
+### Sideslip
+
+- Direction defined by bank (and where to look out of the window)
+  - Right/positive sideslip: bank right, roll left, airflow from right side
+  - Left/negative sideslip: bank left, roll right, airflow from left side
+
+### Static longitudonal stability (pitch)
+
+- Defined by pitching moment coefficient (c_M) over IAS or c_L
+- Stable means negative c_M at high IAS/c_L
+- Wing is unstable part, Horiz. stabilizer is stable part (as name says)
+- Stability is defined by static margin (diff. of CG and neutral point (average of ACs of main wing and stabilizer))
+  - CG before NP -> stable
+  - CG aft NP -> unstable
+
+### Static directional stability (yaw)
+
+- sewpt-back wings increase static directional stability
+- During sideslip, increased by:
+  - dorsal fin (upper side of fuselage, before tail fin)
+  - ventral fins (lower side of fuselage, below tail fin)
+ 
+### Static lateral stability (roll)
+
+- Increased by larger rudder size
+- Increased by dorsal fin
+- Reduced by ventral fin
+
 ## 05 - Control
+
+### Adverse (aileron) yaw
+
+- Caused by different induced drag of left and right aileron
+- Yaw is induced contrary to the desired roll
+
+### Tab types
+
+| Type | Description | Movement | Stick force | Control effectiveness | 
+|--|:--:|:--:|:--:|
+| Balance | Directly linked | opposite | less | less |
+| Anti-balance | Directly linked | same | more | more |
+| Servo | | opposite | less | less |
+| Spring | Spring-augmented | opposite | less | less |
+
+### Frise ailerons
+
+- Avoid adverse yaw
+- leading-edge of the up-going aileron produces extra drag
 
 ## 06 - Limitations
 
