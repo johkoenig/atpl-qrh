@@ -100,7 +100,7 @@
 ### Flight control systems
 
 - Manual: Mechanical by cable or bar
-- Partially powered: Mechanical, assisted by hydraulics
+- Partially powered: Mechanical, assisted by hydraulics (which deliver majority of force)
 - Fully powered: Only hydraulic
 - Fly-by-Wire: Electric sensing, processing via computer
 
