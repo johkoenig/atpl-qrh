@@ -42,7 +42,7 @@ According to Bernoulli, the total pressure is constant p_t = p + q = const.
 ### Coefficients
 
 - Lift L = 0.5 * rho * v^2 * c_L * S
-- Draf D = 0.5 * rho * v^2 * c_D * S
+- Drag D = 0.5 * rho * v^2 * c_D * S
 
 ### Angle of Attack
 
@@ -88,8 +88,8 @@ According to Bernoulli, the total pressure is constant p_t = p + q = const.
 
 ### Stable and unstable drag regions
 
-- Least  v_MP (minimum power = minimum sink rate = longest time to ground)
-- Lowest total drag at v_MD (minimum drag = minimum descend angle = max range)
+- Minimum power speed v_MP: minimum sink rate = longest time to ground (opposite of v_y)
+- Minimum drag speed v_MD: minimum descend angle = max range (opposite of v_x)
 - Below v_MD, total drag increases with reduced airspeed (unstable region)
 - Above v_MD, total drag increases with increased airspeed (stable region)
 
@@ -312,6 +312,7 @@ Dynamic stability requires static stability
 
 - Caused by different induced drag of left and right aileron
 - Yaw is induced contrary to the desired roll
+- Can be counteracted by frise ailerons and asymetrical (low-wing) spoiler movement
 
 ### Tab types
 
@@ -327,8 +328,111 @@ Dynamic stability requires static stability
 - Avoid adverse yaw
 - leading-edge of the up-going aileron produces extra drag
 
+### Differential aileron system
+
+- Up-going aileron (on the inner wing) is deflected more
+- Can be supported by asymetrical (low-wing) spoiler movement
+
+### Elevator trim vs. horizontal trimmable stabilizer
+
+- HTS allows larger CG range
+- HTS has less drag
+- HTS requires less force
+
+### Hydroplaning
+
+- Dynamic: Like normal aquaplaning, due to standing water or slush
+- Viscous: Water combines with rubber on runway
+- Reverted rubber: Blocked tyre heats up, forming a steam pillow between tyre and runway
+
 ## 06 - Limitations
+
+### CS-23 load limits
+
+| Category | G- | G+ |
+|--|:--:|:--:|
+| Normal | -1.9 | 3.8 |
+| Utility | -2.2 | 4.4 |
+| Aerobatic | -3 | 6.0 |
+| Commuter | -1 | 2.5 |
+| CS-25 | -1 | 2.5 |
+
+### Design speeds
+
+- v_S or v_S1G: Stall speed for 1g
+- v_A: Maneuvering speed (first time reaching max g-load)
+- v_B: Max. Gust Intensity Speed / Speed for 66 ft/s gusts
+- v_C: Design cruising speed / Speed for 50 ft/s gusts
+- v_D: Design diving speed (flight tested) / Speed for 25 ft/s gusts
+
+v_A becomes less relevant for large jet aircraft at high altitudes due to:
+
+- buffet onset limitations
+- high stall speeds and low control surfaces make it easier to provide high load factors
+
+### Operational speeds
+
+- v_MO/M_MO: Max. operating speed (less or equal v_C)
+- v_RA/M_RA: Max. speed in rough air
+- v_NO: Normal operation (not greater than v_C)
+- v_NE: Never exceed (0.9 v_D)
+
+v_NE only applies to CS-23 aircraft. v_MO applies to all CS-25 aircraft and a few larger CS-23.
+
+### Flutter 
+
+- Is a self-excited structural oscillation at high speeds
+- My be damped by adding weight in front of the hinge
+
+### Gust load factor
+
+- Decreases with increasing altitude
+- Decreases with increasing mass
+- Decreases with increasing wing loading
 
 ## 07 - Propellers
 
+### Terminology
+
+- Contra-rotating: 2 props on one shaft
+- Counter-rotating: ME aircraft with propellers in opposite direction
+
+### Left-turning tendencies
+
+- Spiraling slipstream (at start/ground roll)
+- Gyroscopic precession (during rotation)
+- Asymetric blade effect/P-Factor (for tail-wheel)
+- Propeller drag (during flight)
+
+### Propeller angles
+
+- Blade angle: Angle between rotation plane and blade chord
+- Angle of attack: Same as for wing
+- Angle of advance (helix angle): Like angle of induced AoA for the wing
+
+### Propeller icing
+
+- Main issue is reduced efficiency
+
+### Thrust distribution
+
+- Low at root
+- Higher towards the tip
+- Falls back to almost zero at the tip
+
 ## 08 - Flight Mechanics
+
+### Equations
+
+- Turn radius R = TAS^2 / (g * tan(bank angle))
+- Required Thrust: T = D + W * sin(pitch angle)
+- Centripetal force F = L * sin(bank angle) = W * tan(bank angle)
+- Lift in turn L = W / cos(bank angle)
+- Load factor n = L / W
+- Rate of turn [rad] = TAS / R = g * tan(bank angle) / TAS
+
+### OEI handing
+
+- High weigth is better for handling due to higher momentum (but worse for performance)
+- Critical engine is the one with the down-going blade next to the fuselage
+- Wind from the dead engine side is critical for handling
