@@ -433,6 +433,28 @@ v_NE only applies to CS-23 aircraft. v_MO applies to all CS-25 aircraft and a fe
 
 ### OEI handing
 
-- High weigth is better for handling due to higher momentum (but worse for performance)
+Critical conditions:
+
+- Low weight (High weigth is better for handling due to higher momentum, but worse for performance)
 - Critical engine is the one with the down-going blade next to the fuselage
-- Wind from the dead engine side is critical for handling
+- Wind from the dead engine side
+- High thrust on the live engine (v_MCA increases)
+- Aft CG (due to lesser lever for the rudder)
+- Flaps deployed
+
+ Actions:
+
+- rotate after v_MCG (ground)
+- keep v_MC/v_MCA (airborne)
+- rudder towards the live engine (to maintain path)
+- aileron/bank towards the live engine (to achieve net zero sideslip)
+
+v_MC/v_MCA is determined for max. 5° bank and max. TO thrust on the live engine
+
+### Polar curve (c_L/c_D)
+
+- Top is stall speed v_S (c_LMAX)
+- Tangent through 0 is best endurance (Jet: v_X = v_MD ; Prop: v_MP)
+- Min c_D is best range and ROC v_y (Jet 1.32 v_MD; Prop: v:_MD)
+
+
