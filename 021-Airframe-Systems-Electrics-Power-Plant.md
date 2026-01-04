@@ -24,7 +24,7 @@
 
 - Mostly a problem near the sea, when flying low and with hot temperatures
 - Aluminium shows grey/white powder, steel shows red/brown
-- Corrosive fluids: Mercury, battery acid, water, toilet waste
+- Corrosive fluids: Mercury, battery acid, water, toilet waste, Hydraulic fluid (some)
 
 ## 02 - Airframe
 
@@ -32,13 +32,24 @@
 
 - Longitudonal: By longerons and stringers
 - Radial: By frames and bulkheads
+- Pressure from cabin: By the skin
 - Around openings in the skin: Through doublers
+
+### Stability of the wing
+
+Torsion box with:
+
+- Skin
+- Spars (lateral)
+- Ribs (longitudonal)
+- Stringers (attached to the skin)
 
 ### Cockpit windows
 
 - Made of layers of glass and vinyl (with vinyl being more important)
 - Heated to assure strength, impact resistance (bird strike) and flexibility of material
 - Side windows are usually not heated, just defogged
+- Heating is on-off to keep temperature in a certain range
 
 ## 03 - Hydraulics
 
@@ -49,11 +60,32 @@
 - Used by control surfaces (namely horizontal stabilizer) and undercarriage
 - Failure of one of the two systems will cause a "Master Caution" (Amber)
 
+### Hydraulic fluids
+
+- DTD 858: Mineral-based, red colour
+- SKYDROL: Synthetic, purple or green colour. Higher performance/boiling point
+
+Mixing or using the wrong type of hydraulic fluid can harm the sealings
+
+### Hydraulic Fluid properties
+
+- thermal stability
+- anti-corrosive
+- high flash point
+- low compressibility
+- low volatility
+
 ### Hydraulic accumulator
 
 - Stores a limited amount of hydraulic fluid under pressure
 - Allows a limited amount of brakings, in case of normal system failure
 - Further dampens fluctuations and allows thermal expansion of the pressurized fluid
+
+### Hydraulic reservoir
+
+- Pressurized with air
+- Standpipe to assure emergency hydraulics in case of leak
+- Baffles and fins to reduce sloshing & foaming
 
 ### Hydraulic pumps
 
@@ -66,6 +98,10 @@
 - Check or Non-return valve: Only allowing flow in one direction
 - Restrictor value: Allow flow in one direction, limiting in the other
 - Automatic cut-out valve (ACOV): Returns fluid to reservior if pressure is above a predefined value
+  - "Cut out": Fluid goes to reservoir (pressure above threshold)
+  - "Cut in": Fluid goes along the line (pressure below threshold)
+- Selector valves: To direct pressure to either side of an actuator
+- Pressure relief valve: Opens above a certain pressure threshold
 
 ## 04 - Landing Gear, Wheels, Tyres, Brakes
 
@@ -78,17 +114,20 @@
 
 - Sidewall damages (bulges, cuts) are not OK
 - Limited cuts on the tread itself are acceptable
+- Fusible plugs are used to avoid excessive pressure due to overheating
 
 ###  Brake materials and wear
 
 - Metal: Need low temperature, therefore braking with large number of small pulses. Wear depends on usage time and temperature
 - Carbon: Need high temperature, therefore use a single firm braking pulse. Wear depends on number of applications
 
-### Autobrake / RTO
+### Autobrake / Anti-Skid / RTO
 
-- Will try to breake at a constant rate (G-force)
+- Will try to breake at a constant rate (G-force) until stopped
+- Requires Anti-Skid, which will ensure the most braking available (better than the pilot)
 - Any support (i.e. reverse thrust) will reduce the brake pressure
 - Autobrake value must be selected proper to the surface friction
+- RTO will activate once the speed has been above ~90 kts
 
 ## 05 - Flight Controls
 
@@ -131,7 +170,7 @@ Last two are irriversible, requiring artifical feel, but no gust locks
 
 ## 06 - Pneumatics – Pressurisation and Air Conditioning Systems
 
-### Pressurization concept
+### Pressurization concept for large aeroplanes
 
 - Air taken from HP compressor stage of engine (bleed air)
   - On ground: Pack cooling fans provide airflow for air-con
@@ -140,6 +179,17 @@ Last two are irriversible, requiring artifical feel, but no gust locks
 - Emergency valves
   - Positive pressure relief valve (if max. diff. pressure + 0.25 psi)
   - Negative pressure relief value (if outside > 0.5 - 1 psi of inside)
+
+### Air cycle machine (bootstrap system)
+
+- Bleed Air from engine
+- Primary heat exchanger (cooled with ram air)
+- Compressor
+- Secondary heat exchanger (coold with ram air)
+- turbine
+- water seperator
+- humidifier
+- cabin
 
 ### Gauges
 
@@ -199,6 +249,18 @@ Last two are irriversible, requiring artifical feel, but no gust locks
 - HP pump takes fuel from line to engine
 
 Failure of LP pump can lead to cavitation in HP pump at high altitudes
+
+### Fuel amount measurement
+
+- Mechanical/swimmer
+- Capacitance
+
+In case of failure, the capacitance system goes to 0
+
+### Jet fuel grades
+
+- A and A1 are used in commercial aviation (mostly A1)
+- Has a lower flash and freezing point, but is only used in military
 
 ## 09 - Electrics
 
@@ -266,12 +328,20 @@ In short: Rotor increases both p & v, stator only p. v is roughly constant after
 ### Combustion chamber
 
 - Diffuser (divergent) reduces velocity & increases static pressure, for optimal combustion
+- Swirl vanes around fuel nozzles also reduce velocity and generate swirl for better fuel-air mixture
 - Combustion process happens at (theoretically) constant pressure, thus increasing temperature
+- Secondary air is used to cool the combustion chambers inner casing
+
+### Combustion chamber types
+
+- Can Type: Seperated into self-contained combustion chambers. has only two igniters, as cans are interconnected
+- Tubo-annular (Cannular): Self-contained chambers with a shared casing.
+- Annular: Continuous casing, one shared chamber. Better thermal distribution.
 
 ### Axial turbine types
 
 | Type | Nozzle (fixed part) | Turbine (rotating part) | Principle |
-|--|--|--|
+|--|--|--|--|
 | Impulse | v↑ p↓ | v↓ p=const. | U-shaped rotor blades, actio=reactio |
 | Reaction | v=const. p=const. | v↑ p↓ (T↓) | wing-shaped rotor blades, aerodynamic forces |
 
@@ -282,7 +352,7 @@ Pressure-related Mnemonics: IDC and RCD (Also note that pressure never rises in 
 - Turboprop: Kinetic energy (velocity) is converted into mechanical energy (shaft)
 - Turbofan/jet: Potential energy (pressure) is converted into kinetic energy (velocity)
 
-- Mnemonics: EPK and EKM
+Mnemonics: EPK and EKM
 
 ### Active clearance control
 
@@ -294,7 +364,7 @@ Pressure-related Mnemonics: IDC and RCD (Also note that pressure never rises in 
 - Primary purpose: Increasing speed of exhaust gas, for extra thrust
 - Secondary purpose: Reduce speed of gas (with divergent section), to reduce noise
 
-Speed increase requires convergent nozzle for subsonic, divergent nozzle for supoersonic gas speeds
+Speed increase requires convergent nozzle for subsonic, divergent nozzle for supersonic gas speeds
 
 ### Turboprop power setting ranges
 
@@ -309,7 +379,7 @@ Speed increase requires convergent nozzle for subsonic, divergent nozzle for sup
 
 ### Gearboxes
 
-- Accessory/Auxiliary gearbox: Connected to the HP shaft, lubricated by turbine oil
+- Accessory/Auxiliary gearbox (consisting of internal and external gearbox): Connected to the HP shaft, lubricated by turbine oil
 - Supplemental gearbox: Connected to the LP shaft, own lubrication
 
 ## 12 - Protection and Detection Systems
