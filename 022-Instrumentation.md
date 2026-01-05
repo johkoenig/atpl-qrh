@@ -36,7 +36,7 @@
 - EAS = CAS corrected for compressibility
 - TAS = EAS corrected for density
 
-- TAS = CAS + (CAS/600 * Alt(FL))
+TAS = CAS + (CAS/600 * Alt(FL))
 
 ### AoA sensors
 
@@ -130,6 +130,8 @@ On acceleration, the ADAI moves up + right
 - Transport wander: Change in orientation in space (flying A->B)
 - Apparent wander: wander of the earth system
 - Gimbal error: In turns, due to tue errection system
+
+Apparent wander rate for free gyro: 15°/h * sin(lat)
 
 ### Axis & degrees of freedom
 
@@ -260,7 +262,7 @@ CPDLC is for ATC only, ACARS is for AOC and ATC
 
 At first, the capabilities have to be reported by AFN (Air Traffic Facilities Notification) LOGON
 
-# ADS contracts (ADS-C)
+### ADS contracts (ADS-C)
 
 - periodic
 - on demand (of ATC)
