@@ -102,6 +102,7 @@ Mixing or using the wrong type of hydraulic fluid can harm the sealings
   - "Cut in": Fluid goes along the line (pressure below threshold)
 - Selector valves: To direct pressure to either side of an actuator
 - Pressure relief valve: Opens above a certain pressure threshold
+- Shuttle valve: Switch to most appropriate pressure supply
 
 ## 04 - Landing Gear, Wheels, Tyres, Brakes
 
@@ -148,7 +149,7 @@ Last two are irriversible, requiring artifical feel, but no gust locks
 ### FBW control modes
 
 - Normal Law / Normal Mode: All protections available
-- Alternate Law / Secondary Mode: Some protections available
+- Alternate Law / Secondary Mode: Some protections available (e.g. loss of automatic pitch protection)
 - Direct Law / Direct Mode: No protections available, but warnings are still present
 
 ### Trimming
@@ -254,6 +255,7 @@ Failure of LP pump can lead to cavitation in HP pump at high altitudes
 
 - Mechanical/swimmer
 - Capacitance
+- Magnetic dip stick + table
 
 In case of failure, the capacitance system goes to 0
 
