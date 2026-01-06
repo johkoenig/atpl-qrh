@@ -202,12 +202,11 @@ Think of wings of a fighter jet: Flat, thin, swept, flying at low AoA
 - Downwash behind the shockwave on wing is reduced -> Reduced AoA on elevator -> Reduced elevator downforce
 - AC also moves, from 25 % to 50 %
 
-### Low speed buffeting
+### Stages of low speed buffeting
 
-- Stages
-  - Buffet initiation
-  - Buffet onset
-  - Deterrent (limiting) buffet
+- Buffet initiation
+- Buffet onset
+- Deterrent (limiting) buffet
 
 ### High speed buffetting
 
@@ -273,7 +272,7 @@ Dynamic stability requires static stability
 - High static directional (yaw) stability
 - Aperiodic motion
 
-### Phuygoid
+### Phugoid
 
 - Long-period oscillations (20 - 100 seconds) in pitch
 - Think of a typical paper plane flying
@@ -317,7 +316,7 @@ Dynamic stability requires static stability
 ### Tab types
 
 | Type | Description | Movement | Stick force | Control effectiveness | 
-|--|:--:|:--:|:--:|
+|--|:--:|:--:|:--:|:--:|
 | Balance | Directly linked | opposite | less | less |
 | Anti-balance | Directly linked | same | more | more |
 | Servo | | opposite | less | less |
@@ -450,6 +449,8 @@ Critical conditions:
 - aileron/bank towards the live engine (to achieve net zero sideslip)
 
 v_MC/v_MCA is determined for max. 5° bank and max. TO thrust on the live engine
+
+v_MCG is determined for max 30ft deviation from runway centerline, for max 150lb of rudder pedal force
 
 ### Polar curve (c_L/c_D)
 
