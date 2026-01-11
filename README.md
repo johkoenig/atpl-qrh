@@ -18,6 +18,6 @@ The information has been added based on what I felt should be documented after g
 | 050 | Meteorology | Not started |
 | 061 | General Navigation | Complete |
 | 062 | Radio Navigation | Complete |
-| 070 | Operational Procedures | WIP |
+| 070 | Operational Procedures | Complete |
 | 081 | Principles of Flight | Complete |
 | 090 | Communications | Complete |
