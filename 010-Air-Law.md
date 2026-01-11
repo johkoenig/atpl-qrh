@@ -53,7 +53,7 @@ Use Mnemonics SICRN to memorize the years
 - **Annex 7**: Aircraft Nationality and Registration Marks
 - **Annex 8**: Airworthiness of Aircraft
 - **Annex 9**: Facilitation (Remember: 9assengers)
-- **Annex 10**: Aeronautical Telecommunications
+- **Annex 10**: Aeronautical Telecommunications (Digital telecommunication is 1 and 0)
 - **Annex 11**: Air Traffic Services (Remember: "11" Looks like two antennas)
 - **Annex 12**: Search and Rescue
 - **Annex 13**: Aircraft Accident and Incident Investigation (Remember: 13 is the unlucky number)
