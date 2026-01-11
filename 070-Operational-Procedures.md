@@ -27,6 +27,19 @@
 - System holding safety and operational information
 - Relevant for all operational crew (not just pilots)
 
+### Aircraft equipment
+
+- Wiper: 5700kg
+- FDR: 5700kg
+- AWR: Press. or >5700kg or >9 pax
+- Crash axes/crowbar: 1 needed 5700kg and >9pax or 2 needed >200pax
+- EGPWS: 5700KG or 9 PAX
+- ACAS II: 5700KG or 19 PAX
+- Interphone: 15000kg
+- Flight Monitoring system: 27000kg
+- Flight Data Analysis Programme: 27000kg
+- Fasten-Seatbelt-Signs: When not all seats are visible from the cockpit
+
 ### Lights at night
 
 - 3 navigation lights (red, green, white)
@@ -34,6 +47,13 @@
 
 ### Oxygen requirements
 
+- Crew (Pilot and Cabin):
+  - 10.000ft/30 mins
+  - 13.000ft
+- Passengers:
+  - 10.000ft/30 mins for 10%
+  - 14.000ft for 30%
+  - 15.000ft for 100% (with minimum 10 min supply)
 - First-aid oxygen required > 25.000 ft
 
 ### Min. Landing distance
@@ -58,6 +78,16 @@
 
 - Less than 100 h and 10 sectors within 120 days
 - Less than 150 h and 20 sectors (no time limit)
+
+### NAT HLA
+
+- Requires PBCS (ADS-C and CPDLC), 2 LRNS, HF, LOAs
+- Requires drawing the route on a chart and regular plotting of the position
+- In case of reroutings: Apply SOP and minimize threat of nagivation errors
+- SLOP (Strategic lateral offset procedure): Offset right up to 2 NM, e.g. for turbulence
+- Weather deviation from track with max. 30° angle
+  - If deviation > 5 NM, descend 300ft (north), climb 300 ft (south)
+
 
 ## 02 - Special Operational Procedures and Hazards (General Aspects)
 
@@ -157,6 +187,11 @@
 - Aircraft security Check needs to be performed if unaware of the status of an aircraft
 - Regular training for crew:
   - Measures to avoid unlawful interference
+- State of landing after unlawful interference must inform:
+  - State of registry
+  - State of operator
+  - Each state of which citizens are on board
+  - ICAO
 
 ### Emergency and precautonary landing
 
@@ -183,6 +218,7 @@
 - Materials reacting with each other may not be stowed next to each other
 - Damaged/Leaking packages must be removed under operators responsibility
 - Incident reports must be filed within 72 h
+- Documents must be stored for 3 months
 
 ### Contaminated runways
 
