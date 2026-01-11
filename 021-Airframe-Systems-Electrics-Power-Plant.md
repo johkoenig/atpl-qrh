@@ -277,6 +277,11 @@ In case of failure, the capacitance system goes to 0
 - Rectifier: AC to DC
 - Transformer Rectifier (TRU): 115/200V AC to 24V DC
 
+### Issues with electric engines
+
+- Armature seizure: Currents and torque decrease
+- Rotor seizure: Current and torque increase
+
 ## 10 - Piston Engines
 
 ### Magnetos
