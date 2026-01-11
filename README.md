@@ -13,11 +13,11 @@ The information has been added based on what I felt should be documented after g
 | 022 | Instrumentation | Complete |
 | 031 | Mass & Balance | Complete |
 | 032 | Performance | Not started |
-| 033 | Flight Planning & Monitoring | WIP |
+| 033 | Flight Planning & Monitoring | Complete |
 | 040 | Human Performance & Limitations | Completed |
 | 050 | Meteorology | Not started |
 | 061 | General Navigation | Complete |
 | 062 | Radio Navigation | Complete |
-| 070 | Operational Procedures | Not started |
+| 070 | Operational Procedures | WIP |
 | 081 | Principles of Flight | Complete |
 | 090 | Communications | Complete |
