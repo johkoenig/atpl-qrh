@@ -57,21 +57,6 @@ Most significant:
 - Clouds reflect UV radiation from sun
 - Clouds absorb infrared radiation from earth and re-radiate parts back (lower & thicker = more)
 
-#### Stability
-
-- ELR: Environmental lapse rate (variable)
-- DALR: Dry adiabatic lapse rate (3°C/1000ft)
-- SALR: Saturated adiabatic lapse rate (1.8°/1000ft)
-
-| Stability | Requirement |
-|--|--|
-| Absolute stability | ELR < SALR |
-| Conditional instability | SALR < ELR < DALR |
-| Absolute instability |  DALR < ELR |
-
-- Stability is called neutral if ELR = SALR or ELR = DALR
-- Inversion is ELR < 0, so very stable
-
 ### 01-03 - Atmospheric pressure
 
 #### Pressure designations
@@ -123,39 +108,257 @@ Most significant:
 
 ## 02 - Wind
 
-02-01 - Definition and measurement of wind
+### 02-01 - Definition and measurement of wind
 
-02-02 - Primary cause of wind
+#### Wind reports
 
-02-03 - General global circulation
+- ATIS/TWR: Magnetic, average of 2-minute period
+- METAR/VOLMET: True, average of 10-minute period
 
-02-04 - Local winds
+#### Directions
 
-02-05 - Mountain waves (standing waves, lee waves)
+- Veering: Turning clockwise
+- Backing: Turning Anti-clockwise
 
-02-06 - Turbulence
+### 02-02 - Primary cause of wind
 
-02-07 - Jet streams
+#### Geostrophic wind
+
+- Combination of:
+  - Pressure Gradient Force (PGF): The higher the pressure gradient, the stronger the wind
+  - Coriolis force (CF): Makes wind go parallel to isobars (Veering in N, Backing in S)
+- Almost perpendicular to PCF
+- Actually this wind is very rare, because it requires straight isobar lines
+- Wind speed: V = PGF / (2 * omega * rho * sin(lat))
+
+#### Gradient wind
+
+- Geostrophic wind around curved isobars
+- Around depression / low / cyclone: Lesser than geostrophic wind
+- Around anticyclone / high: Larger than geostrophic wind
+
+#### Surface wind / Friction layer
+
+- Measured in 10 m /33 ft
+- Up to 2000 (night) or 3000 ft (day) AGL
+- Compared to upper wind (30° over land, 10° over water)
+  - Backing in N hemisphere
+  - Veering in S hemisphere
+- Speed 50% reduction over land, 30% reduction over water
+- Backing (N) and veering (S) is more pronounced at night (night time effect)
+- Friction layer influenced by: terrain/surface, wind speed, stability
+
+#### GND Convergence and Divergence
+
+- Convergence: Low at GND, High at ALT -> Ascending wind, clouds, precipitation
+- Divergence: High at GND, Low at ALT -> Fair weather
+
+### 02-03 - General global circulation
+
+#### Buy's Ballots Law
+
+- Rotation around high: Clockwise (N) / Counter-Clockwise (S)
+- Rotation around low: Counter-Clockwise (S) / Clockwise (N)
+
+#### Circulary cells
+
+- Polar
+- Ferrel
+- Hadley (GND Convergence at 0°)
+
+### 02-04 - Local winds
+
+Local winds require flat pressure gradients (otherwise, global winds are dominant)
+
+- Sea breeze (stronger, day) / Land breeze (night)
+- Anabatic (up the hill, day) / Katabatic (Stronger, down the hill, night)
+- Valley wind
+- Nocturnal low-level jet (during night, above inversion)
+
+### 02-05 - Mountain waves (standing waves, lee waves)
+
+#### Conditions
+
+- Wind speed > 15 - 20 kts
+- Wind direction perpendicular (max. 30°)
+- Layer of stable air forced up the hill
+
+#### Effects (leeward side)
+
+- Lenticularis clouds (above summit altitude)
+- Breaking waves (up to tropopause/FL600)
+- Rotors (at/below ridge height)
+
+Note: If turbulence is caused by jet stream, it is called CAT (even if near mountains)
+
+### 02-06 - Turbulence
+
+Irregular and instantaneous movement of air
+
+#### Types
+
+- Mechanical: By objects
+- Thermal: By Convection
+- Cloud: near Cb
+- Orographic: Mountain waves, rotors
+- CAT: Above/Below Jet stream and on cold side
+- Frontal
+
+### 02-07 - Jet streams
+
+#### Basics
+
+- 4 Jet streams at 60N 30N 30S 60S (between cells)
+- All blowing from west at 60 - 220 kts (up to 300 kts in Japan)
+- Identified by streaked cirrus clouds
+- CAT on cold/low/cyclonic side & above/below of core
+
+#### Polar Jet Stream
+
+- Core is in tropical air, below tropopause
+- North polar jet stream has most curves
+- Core height: FL300
+- Stronger in winter
+
+#### Equatorial/Tropical jet stream
+
+- The only one blowing from east
+- Only during summer at 15 N (in ITCZ)
+- Core height: FL500
 
 ## 03 - Thermodynamics
 
-03-01 - Humidity
+### 03-01 - Humidity
 
-03-02 - Change of state of water
+#### Basics
 
-03-03 - Adiabatic processes
+- Absolute amount of humidity is greatly influenced by temperature
+- At poles, almost no absolute humidity, at equator, up to 25 g/m^3
+- Air saturation (= 100% RH)
+  - Saturated: T = T_DP
+  - Unsaturated T > T_DP
+- saturated air is less dense than dry air (1.225 g/m^3)
+
+#### Equations
+
+- RH = (mass of water vapor) / (max mass of water vapor) [%]
+- RH = 100 - 5*(T - T_DP) [%]
+- Mixing ratio: MR = (mass of wator vapor) / (mass of dry air)
+
+### 03-02 - Change of state of water
+
+#### State changes & Latent heat
+
+- Solid -> Melting -> Liquid -> Evaporation -> Gas (or Sublimation if no liquid)
+  - Latent heat absorbed
+- Gas -> Consensation -> Liquid -> Freezing -> Solid (or Deposition if no liquid)
+  - Latent heat released
+ 
+#### Condensation nuclei
+
+- Fixed particles that act as an enabler for condenstaion or deposition
+- e.g. Dust, Air pollution
+- Without nuclei, larger supercooled water droplets persist (they freeze to ice upon contact with nuclei)
+
+### 03-03 - Adiabatic processes
+
+#### Stability
+
+- ELR: Environmental lapse rate (variable)
+- DALR: Dry adiabatic lapse rate (3°C/1000ft or 1°/100m)
+- SALR: Saturated adiabatic lapse rate (1.8°/1000ft or 0.6°/100m)
+
+| Stability | Requirement |
+|--|--|
+| Absolute instability |   ELR > DALR |
+| Conditional instability | DALR > ELR > SALR |
+| Neutral stability | ELR = SALR or ELR = DALR |
+| Stability | SALR > ELR |
+
+- Stability is called neutral if ELR = SALR or ELR = DALR
+- The lesser the lapse rate, the more stable
+- Inversion is ELR < 0, so very stable
+- Isothermal = Lapse rate 0° = very stable
 
 ## 04 - Clouds and Fog
 
-04-01 - Cloud formation and description
+### 04-01 - Cloud formation and description
 
-04-02 - Fog, mist, haze
+#### Form
+
+- Cumuliform: Towered, like "sheep"
+- Stratiform: flat, widespread, minimal vertical size
+- Cirriform: High alt, hair-like
+
+#### Cloud features
+
+- Ci: Ice crystals, but little risk of icing. VIS > 1000 m
+- Cb: Ice crystals at top of anvil
+- TCu: MOD-SEV TURB and MOD-SEV icing
+
+#### Cloud altitudes
+
+Level is defined by the base!
+
+- Low: up to 6500 ft (contain water droplets)
+- Middle/Alto: 6500 - 23000 ft (contain both water droplets and ice crystals)
+- High: 23000 ft and higher (contain ice crystals)
+
+#### Special cumulus types
+
+- Cumulus fractus: Looks more like low-level cirrus (ripped parts of Cu clouds)
+- Cumulus congestus: Towered cumulus
+- Cumulus capilatus: With anvil developing, almost a Cb
+
+However, for AC clouds the range is 7000 - 15000 ft
+
+### 04-02 - Fog, mist, haze
+
+#### Types
+
+- Fog: VIS < 1000 m, RH ~ 100%
+- Mist: VIS 1000 - 5000 m, RH > 95%
+- Haze: VIS < 5000 m due to solid particles (i.e. dust)
+
+#### For types
+
+- Advection fog
+- Radiation fog
+- Orographic fog
+- Steaming fog / Arctic smoke / Sea smoke
+- Frontal fog (warm front touching the ground, rain falls into cold air)
+- Freezing fog (supercooled water droplets, which will freeze when they hit the cold aircraft)
+- Ice fog (below -40°C)
 
 ## 05 - Precipitation
 
-05-01 - Development of precipitation
+#### 05-01 - Development of precipitation
 
-05-02 - Types of precipitation
+#### Theories
+
+- Wegener-Bergeron-Findeisen (WBF) process:
+  - Ice crystals grow from liquid droplets in the cloud
+  - Happens in Cbs, below 0°C
+  - Can form rain, snow, hail
+- Coalescence process: Falling and rising water droplets collide
+  - Happens in stratiform and Cb clouds
+  - Supported by convection
+  - Can form light rain or drizzle
+
+#### Formation
+
+- Hail: Cb with ice crystals and water
+- Snow: From supercooled water droplets and ice crystals
+- Snow grains: from stratus or supercooled fog
+
+### 05-02 - Types of precipitation
+
+- Drizzle: 0.2 - 0.5 mm
+- Ice pellets (PL): Small pellets < 5mm
+  - Transparent
+- Hail (GR): > 5 mm
+- Small Hail (GS): < 5 mm (a.k.a. Soft Hail / Graupel)
+  - White
 
 ## 06 - Air Masses and Fronts
 
