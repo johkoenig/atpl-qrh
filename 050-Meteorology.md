@@ -34,7 +34,8 @@
 - Solar radiation: short-wavelength UV radiation from sun (mostly heating earth)
 - Earth radiation: Long-wave IR radiation, picked up the greenhouse gases
 - Conduction: Air is warmed by ground during day, Air is cooled by ground during night
-- Convection: Vertical movement of air
+- Convection: Vertical movement of air into the atmosphere (upwards)
+- Subsidience: Vertical movement of air to the ground (downwards)
 - Condensation: Forming of clouds releases heat
 
 Most significant:
@@ -69,8 +70,12 @@ Most significant:
 
 #### Ridge and Trough
 
-- Rigde: Line of high pressure (usually fair weather)
-- Trough: Line of low pressure (often cloudy and precipitation)
+Refers to the surface
+
+- Rigde: Line of high pressure (usually fair weather, air diverges at it)
+- Trough: Line of low pressure (often cloudy and precipitation, air converges to it)
+
+Special: Col is the area in the middle between 2 high and 2 low pressure systems
 
 ### 01-04 - Air density
 
@@ -201,7 +206,10 @@ Irregular and instantaneous movement of air
 - Thermal: By Convection
 - Cloud: near Cb
 - Orographic: Mountain waves, rotors
-- CAT: Above/Below Jet stream and on cold side
+- High-level CAT: Above/Below Jet stream and on cold side
+  - Can cause aircraft damage
+  - Best source are reports from other aircraft
+- Low-level CAT: Squall line near cold front
 - Frontal
 
 ### 02-07 - Jet streams
@@ -362,37 +370,263 @@ However, for AC clouds the range is 7000 - 15000 ft
 
 ## 06 - Air Masses and Fronts
 
-06-01 - Air masses
+### 06-01 - Air masses
 
-06-02 - Fronts
+#### Basics
+
+- Air masses are generated at areas of high pressure -> stable at source
+- Warming/cooling by heat transfer due to radiation, conduction and convection
+
+#### Classification by temperature
+
+- Arctic (A)
+- Polar (P)
+- Tropical (T)
+- Equatorial (E)
+
+#### Classification by humidity
+
+- Continental (dry, over land)
+- Maritime (Humid, over water)
+
+#### Movement characteristics
+
+- Warm air moves over cold surface -> stability, inversion (advection fog)
+- Cold air moves over warm surface -> instability, showers
+
+#### Designation
+
+- First letter is humidity (c or m)
+- Second letter is temperature (A, P, T or E)
+- Second letter is cold or warm (c or w)
+
+### 06-02 - Fronts
+
+#### Global fronts
+
+- Arctic front: Between arctic and polar air
+- Polar front: Between cold polar and warm tropical air
+- Mediterranean front: Between polar air from europe and tropical air from north africa (winter only)
+
+#### Fronts
+
+| Property | Warm front | Cold front |
+|--|:--:|:--:|
+| Air masses | warm moves over cold | cold moves below warm |
+| Slope | 1:150 | 1:50 or 1:80 |
+| Clouds | Ci, stratiform | stratiform, Cb |
+| Clouds behind | None | Cu/Cb |
+| Precipitation | stable, widespread | unstable, gusts, GR, TS |
+| Air after pass | T↑ p↓ | T↓ p↑ |
+| Geostrophic Wind Speed | 1x | 0.66x |
+
+#### Frontal depression
+
+- Warm front ahead of cold front
+- Turning around a low
+- Will develop an occlusion
+- Polar front depressions move east (from atlantic ocean to europe)
+- Depression exists for 4-7 days in mid-latitudes, sometimes a little bit longer
+
+#### Stationary front
+
+- A warm and a cold front moving against each other, staying stationary
+- Weather is a mix of both fronts
+
+#### Occlusion
+
+| Property | Warm front occ. | Cold front occ. |
+|--|:--:|:--:|
+| Coldest ahead | ahead | behind |
+| Chart line continue | warm front | cold front |
+| More occurence | winter | summer |
 
 ## 07 - Pressure Systems
 
-07-01 - The principal pressure areas
+### 07-01 - The principal pressure areas
 
-07-02 - Anticyclone
+#### Stable pressure areas
 
-07-03 - Non-frontal depressions
+- Azores: Always high
+- Iceland: Always low
+- Siberia, USA: High in winter, low in summer
+- Mediterranean: Low in winter, high in summer
+  
+### 07-02 - Anticyclone (High)
 
-07-04 - Tropical revolving storms
+#### Types of anticyclones
+
+- Cold anticyclone: Weakens with increasing altitude
+- Warm anticyclone: Increases with increasing altitude
+- Blocking anticyclone: Stationary, limits depression movement (usually warm subtropical highs)
+
+#### Pressure surface chart (isobar chart)
+
+- High: Bulge upwards at the bottom
+- Low: Bulge downwards at the bottom
+- Warm: Bulge upwards at high altitude
+- Cold: Buld downwards it high altitude
+
+### 07-03 - Non-frontal depressions (Lows)
+
+- Orographic low: On leeward side of mountain ridge
+- Secondary depression: Forming on a cold front of the primary depression, moving cyclonic around it
+- Polar lows are small and form over water
+- Thermal lows from over water or land 
+
+### 07-04 - Tropical revolving storms
+
+#### Basics
+
+- Lat. 5° - 25°
+- Requires water > 26°C
+- Size 200 - 1000 km, size of eye 20 - 50 km
+- Travel westwards, then away from equator, then eastwards
+
+#### Types
+
+- Hurricane: Atlantic / E Pacific
+  - USA (Late summer, 6-7 p.a.)
+- Cyclone: SW pacific
+  - Australia (Winter, 7-9 p.a.)
+  - India (Summer, ~12 p.a.)
+- Typhoon: NW pacific
+  - Japan (Summer - Autumn, ~20 p.a.)
+ 
+#### Stages
+
+- Tropical disturbance: SHRA and TS, Wind < 17 kts
+- Tropical Depression: Wind 17 - 33 kts
+- Tropical Storm: Wind 33 - 63 kts (severe above 47 kts)
+- Tropical Cyclone/Hurricane/Typhoon: Wind > 63 kts
+
+TRS do NOT originate from the south atlantic ocean!
 
 ## 08 - Climatology
 
-08-01 - Climatic zones
+### 08-01 - Climatic zones
+
+#### Zones
+
+| Letter | Name | Latitude | Description |
+|:--:|--|:--:|--|
+| E | Polar/Artic | > 70° | no warm summers |
+| D | Continental Sub-Arctic | 50°-70° | short summers, long winters |
+| C | Temperate | 40°-60° | Distinct seasons |
+| B | Sub-tropical dry | 20°-35° | Deserts |
+| A | Tropical wet | < 10° | Rainforest |
+
+#### Stabilizing factors
+
+- Earth's rotation rate
+- Wind from high to low
+- Unequal heating of land and sea
 
 08-02 - Tropical climatology
 
-08-03 - Typical weather situations in the mid-latitudes
+#### Trade winds
 
-08-04 - Local winds and associated weather
+- Strong easterly winds, GND to FL100
+- From subtropical high (a.k.a. horse latitudes) to ITCZ (= thermal equator = doldrums)
+- Change direction when passing the geographic equator (NE backs to NW, SE veers to SW)
+- Dry and weaker over land, humid and stronger over water (but still fair weather)
+
+#### Intertropical convergence zone (ITCZ)
+
+- Trade winds from north and south collide, causing little wind overall (doldrum)
+- Intense solar radiation, lots of convection
+- Frequent Cb/TS at noon, up to FL500
+- Zero Degree Isotherm at FL160 / Icing risk FL160 - FL260
+
+#### South-Asian & West-African Monsoon
+
+- Winter: NE wind (land to ocean), dry (cold air from Siberian high)
+- Summer: SW wind (ocean to land), Cb/TS (redirected trade wind, 80% of rain in India)
+
+#### Polar air outbreaks
+
+- Impact central & northen China in winter
+- Cold fronts for arctic/polar area bring cold air
+
+#### Sandstorm
+
+- Particle size 0.08 to 0.3 mm
+- Wind speed > 20 kts
+
+### 08-03 - Typical weather situations in the mid-latitudes
+
+#### Cold-air drop
+
+- Can be released as polar jet stream weakens in winter
+- Cold-air/Low-pressure surrounded by warm air
+- Moving southward from poles, but hard to predict exactly
+- FL160 - FL300 (seen on 500 hPa chart)
+- Unstable, TS, Rain, Icing
+
+#### Flat pressure pattern
+
+- Low pressure diff -> Low winds
+- Warm air is lifted in summer, leading to TS in the afternoon
+
+#### Westerlies
+
+- Common in middle-latitudes
+- Interconnected warm and cold front bands (from a polar frontal depression)
+- Moving west, with varying weather
+
+### 08-04 - Local winds and associated weather
+
+- Foehn (Alps)
+- Mistral (Valley wind between alps central massiv in France / Cold, dry, N/S)
+- Bora (East Europe and Adria in Winter / Strong, cold, dry)
+- Harmattan (North Africa in winter / Dry, with Sand, NE)
 
 ## 09 - Flight Hazards
 
-09-01 - Icing
+### 09-01 - Icing
 
-09-02 - Turbulence
+#### Types of icing
 
-09-03 - Wind shear
+| Type | Shape | From |
+|--|--|--|
+| Clear ice | Transparent, heavy, strong | Large SCT in Cu, Cb, Ns |
+| Rime ice | Opaque, white, light, weak | Small SCT in St, Sc, As, Ac, Ns |
+| Mixed ice | Combination of both | Small & large SCTs in Cu, Cb, Ns |
+| Hoar frost | Frost | Cold airframe in warm air |
+
+#### Ice crystal icing
+
+- Needs < -40°C and high ice water content (g/m^3)
+- Happens in or downwind to upper levels of convective cloud (Cb anvil)
+- Connected to tropical TS
+- Issue to:
+  - Jet engine (melting in then freezing in compressor)
+  - Windshield
+  - Incorrect TAT reading (0°C)
+
+#### Icing contributors
+
+- Thin leading edge
+- More speed
+- Larger droplets
+
+#### Avoidance by cloud type
+
+- St: Climb
+- Cb: Avoid / Re-route
+- Ns (with FZRA): Turn back
+  
+### 09-02 - Turbulence
+
+see 02-06
+
+### 09-03 - Wind shear
+
+- Vertical wind shear can happen along an inversion
+  - A sign can be virga
+- Delay take-off if wind shear is reported
+- Vertical wind shear = wind is different in different heights (in kts/100ft)
+- Horizontal wind shear = wind is different at same height (in kts/1000ft)
 
 09-04 - Thunderstorms
 
