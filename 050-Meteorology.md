@@ -628,24 +628,93 @@ see 02-06
 - Vertical wind shear = wind is different in different heights (in kts/100ft)
 - Horizontal wind shear = wind is different at same height (in kts/1000ft)
 
-09-04 - Thunderstorms
+### 09-04 - Thunderstorms
 
-09-05 - Tornadoes
+#### Basics
 
-09-06 - Inversions
+- Require warm air, humidity and instability (ELR < SALR = lifting action)
+- Avoid by 10 NM (20 NM above FL200) and 5000 ft
+- Detect by visual cues, stormscope and AWR
 
-09-08 - Hazards in mountainous areas
+#### Types
 
-09-09 - Visibility-reducing phenomena
+- Air-mass (weaker/slower, during day in summer)
+- Frontal (stronger/faster, more typical in winter day & night)
+- Single-cell
+- Multi-cell (caused by wind shear, can develop to squall lines)
+- Supercell  (breakdown of inversion, wind shear develops to vortex)
+- Orographic
 
-09-07 - Stratospheric conditions
+#### Stages
+
+- Initial/TCU (15 - 20 mins, updrafts)
+- Mature (20 - 30 mins, up- and downdrafts)
+- Dissipating (1.5 - 2.5 h, downdrafts)
+
+#### Lightning types
+
+- Intra-cloud
+- Cloud-to-air
+- Cloud-to-cloud
+- Cloud-to-ground
+- Ground-to-cloud (a.k.a. upward lightning)
+
+#### Risks
+
+- Turbulence
+- Icing
+- Water ingestion in the engine
+- Static elictricity
+- Wind Shear & Microbursts
+
+### 09-05 - Tornadoes
+
+#### Basics
+
+- Vortex in a mesocyclone, causing a column of rotating air
+- Up to 100 m in width
+- Movement speed 20 - 40 kts
+- Wind speed up to 50 - 200 kts
+
+#### Other phenomena
+
+- Dust devil: From dry and hot air (Shorter-lived, smaller, less wind speed)
+- West African Tornado (WAT): Easterly wave, squall line perpendicular to ITCZ
+
+### 09-06 - Inversions
+
+- Warm temperature air above cold
+- Strongest in deserts
+
+### 09-08 - Hazards in mountainous areas
+
+- Valley inversion (fog and wind shear)
+- Rotors and mountain waves
+- Icing near mountain ridge (due to lifted cold moist air)
+
+### 09-09 - Visibility-reducing phenomena
+
+- Sandstorm (VIS 200 - 600m)
+- Heavy sandstorm (VIS < 200m)
+- Heavy drizzle (VIS < 500m)
+- Blowing Snow (VIS < 1m)
+- Tropical downpour (tens of meters)
+- Inversion Mist/Haze: Reflecting sunlight on top
+
+### 09-07 - Stratospheric conditions
+
+- Constant temperature
+- Low air density
+- Strong wind but no turbulence
+- Higher cosmic radiation
 
 ## 10 - Meteorological Information
 
-10-01 - Observation
+### 10-01 - Observation
 
 10-02 - Weather charts
 
 10-03 - Information for flight planning
 
 10-04 - Meteorological services
+
