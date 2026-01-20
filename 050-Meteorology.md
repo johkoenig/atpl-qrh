@@ -712,9 +712,49 @@ see 02-06
 
 ### 10-01 - Observation
 
+#### Cloud detection
+
+- Visual limited to day, Infrared limited to higher alt (due to temperature diff)
+- Visible on both: Thick convective cloud
+- Visible on Visual only: Low cloud or fog
+- Visible on IR only: High & thin, e.g. Ci/Cs
+
+#### Runway condition codes
+
+- 6: Dry
+- 5: Wet
+- 4: Compacted snow
+- 3: Slippery wet
+- 2: Slush
+- 1: Wet Ice
+
+#### RVR
+
+- If less than 1500m
+- In metres (acc. Annex 3) or metres/feet (acc. ICAO & discretion of state)
+
+#### Short-time wind change
+
+Less than 1 minute
+
+- Gust: 10 kts
+- Squall: 20 kts
+
+#### AIRREP
+
+- Prefixes:
+  - ARP: Air report
+  - VA: Volcanic Ash
+- Content: ID, Pos, Alt, Time, Observation 
+
+
 10-02 - Weather charts
 
 10-03 - Information for flight planning
 
-10-04 - Meteorological services
+#### 10-04 - Meteorological services
+
+- Meteorological Watch Office (FIR)
+- World Area Forecast Centre
+- Tropical Cyclone Advisory Centre
 
