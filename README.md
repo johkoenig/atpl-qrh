@@ -15,7 +15,7 @@ The information has been added based on what I felt should be documented after g
 | 032 | Performance | Not started |
 | 033 | Flight Planning & Monitoring | Complete |
 | 040 | Human Performance & Limitations | Completed |
-| 050 | Meteorology | Not started |
+| 050 | Meteorology | Complete |
 | 061 | General Navigation | Complete |
 | 062 | Radio Navigation | Complete |
 | 070 | Operational Procedures | Complete |
