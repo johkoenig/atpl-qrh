@@ -91,20 +91,22 @@
 
 ## 02 - Special Operational Procedures and Hazards (General Aspects)
 
-### OM Parts
+### 02-01 Operations Manual
+
+#### OM Parts
 
 - A: General/Basic (not type-related)
 - B: Aircraft operation (type-related)
 - C: CAT, routes/NAV, aerodromes
 - D: Training
 
-### Content of the OM
+#### Content of the OM
 
 - MMEL (Master MEL) by manufacturer
 - MEL by operators CAMO, not less restrictive than MMEL
 - Jump seat usage if allowed by OM and Commander
 
-### Icing conditions
+### 02-02 Icing conditions
 
 - 2-step process: De-Icing, then Anti-Icing
 - HOT (Hold-over time) starts at beginning of Anti-Icing
@@ -115,7 +117,7 @@
   - Type II and IV: Stronger, used for anti-icing
   - Type III: Used for anti-icing on slower aircraft
 
-### Bird strike (hazard)
+### 02-03 Bird strike (hazard)
 
 - Highest risk below 2500 ft
 - Inform ATC when possible
@@ -123,7 +125,7 @@
 - ICAO provides IBIS (ICAO Bird Strike Information System)
 - Bird Migration Information in AIP ENR 5.6
 
-### Noise abatement
+### 02-04 Noise abatement
 
 - NAPDs are established by the operator, based on the NADPs of the authority
 - No noise abatement procedures below 800 ft AGL
@@ -139,7 +141,7 @@
 | NADP 1 | Close-In | V2 + 10-20 kts | Reduce thrust | Accel., retract flaps |
 | NADP 2 | Distant | V2 + 10-20 kts | Accel., retract flaps | No change |
 
-### Fire and smoke
+### 02-05 Fire and smoke
 
 - Brakes require cool-down after heavy use, otherwise fuse plugs may pop
   - Hot brakes should be apporached from the front/back
@@ -152,13 +154,13 @@
   - 1 on the flight crew deck
   - 1 for 30, 2 for 60, 3 for 200, then 1 per 100
 
-### Decompression
+### 02-06 Decompression
 
 - TUC at 40.000 ft: 15-20 sec (slow) and 7-10 sec (rapid)
 - Don the oxygen masks first!
 - Rapid decompression signs: Mist, Expansion of body gases
 
-### Wind shear and microburst
+### 02-07 Wind shear and microburst
 
 - Entering microburst: Increase TAS, above G/S
 - Exiting microburst: Decrease TAS, drop in ALT and V/S
@@ -170,7 +172,7 @@
   - Smoke changing directions
 - Downdraft (like center of microburst): Like less headwind, more tailwind, less AoA
 
-### Wake turbulence
+### 02-08 Wake turbulence
 
 - Wake turbulence occurs when aircraft is heavy, large, slow and clean configured
 - Wake occurs from rotation to touchdown
@@ -179,7 +181,7 @@
   - 4 NM + 1 NM per cat diff
   - DODIA (2/3/2/3/2(3 for L behind M&H))
 
-### Security (unlawful events)
+### 02-09 Security (unlawful events)
 
 - ICAO Annex 17 is relevant here
 - Removal of found items is not part of the procedure (usually done by law enforcement)
@@ -193,7 +195,7 @@
   - Each state of which citizens are on board
   - ICAO
 
-### Emergency and precautonary landing
+### 02-10 Emergency and precautonary landing
 
 - Smell of Smoke with unidentified source: Emergency landing
 - Smell of Smoke, while search is going on: Precautonary landing
@@ -202,13 +204,13 @@
   - Gear up, Nose up, Flaps down
   - Parallel to swell, unless strong wind, then into the wind
 
-### Fuel jettisoning
+### 02-11 Fuel jettisoning
 
 - Jettison system must be capable to drop enough fuel in 15 mins to comply with climb gradients
 - Dump fuel above FL 60
 - 
 
-### Transport of dangerous goods (DG)
+### 02-12 Transport of dangerous goods (DG)
 
 - ICAO Technical Instructions provide info about packing and prohibited materials (among other information)
 - Radioactive materials:
@@ -220,7 +222,7 @@
 - Incident reports must be filed within 72 h
 - Documents must be stored for 3 months
 
-### Contaminated runways
+### 02-13 Contaminated runways
 
 - Surface conditions (need to be > 25%)
   - Dry
