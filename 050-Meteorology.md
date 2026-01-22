@@ -747,12 +747,56 @@ Less than 1 minute
   - VA: Volcanic Ash
 - Content: ID, Pos, Alt, Time, Observation 
 
+### 10-02 - Weather charts
 
-10-02 - Weather charts
+#### Gridded forecasts
 
-10-03 - Information for flight planning
+Content: 
 
-#### 10-04 - Meteorological services
+- Air temperature
+- Humidity
+- Wind direction and speed
+- Temperature and level of tropopause
+- Geopotential alt. of FL
+- CB, TURB, icing, CAT
+
+Other:
+
+- Can be combined into information processing systems
+- Can be used to avoid flight hazards
+- Units: vertical, horizontal and time coordinate
+- Mapping: Height or Pressure
+- Forecast data: Lat/Long and vertical data
+
+### 10-03 - Information for flight planning
+
+#### CAVOK
+
+- VIS 10 km
+- NSC: Lowest cloud > 5000 ft or MSA, no CB or TCU
+- No SIGWX
+
+#### Reasons for special air report (ARS)
+
+- MOD/SEV TURB
+- MOD/SEV icing
+- SEV mountain wave (> 600 ft/min vertical)
+- TS, other than isolated
+- Pre-eruption volcanic activity and volcanic ash cloud
+
+#### VOLMET
+
+- VHF: METAR, SPECI, TREND
+- HF: METAR, SPECI, TREND, TAF, SIGMET
+
+#### Abbreviations
+
+- Ice:
+  - PL: Pellets (< 5 mm)
+  - GR: Hail (> 5 mm)
+- SN: Snow
+
+### 10-04 - Meteorological services
 
 - Meteorological Watch Office (FIR)
 - World Area Forecast Centre
