@@ -226,7 +226,7 @@
 
 - Surface conditions (need to be > 25%)
   - Dry
-  - Damp: Moisture with shiny appearance
+  - Damp: Moisture, but no shiny appearance
   - Wet: Moisture appears reflective
   - Contaminated: Ice, Water/slush/snow > 3 mm, Compacted snow (all are falling from cloud)
 - Max. speed for hydroplaning:
