@@ -10,9 +10,17 @@
 - Gross: Average performance in the fleet (= Measured, reduced by operating conditions)
 - Net: Individual performance (= Gross, reduced by a safety margin)
 
+#### Screen height
+
+- Class B: 50ft
+- Class A
+  - 50ft: AoB > 15° at T/O and normal landings
+  - 35ft: dry T/O and steep approaches
+  - 15ft: wet T/O
+
 #### Flight phases
 
-- Take-Off: Brake release point to Screen height (35ft/A; 50ft/B)
+- Take-Off: Brake release point to Screen height
 - T/O climb: Screen height to 1500 ft AGL
 - En-Route 1500 ft AGL to 1000 ft AGL
 - Approach: 1000 ft AGL to Screen height
@@ -186,7 +194,78 @@ In VMC, visual avoidance is sufficient
 
 ### 04-01 Take-off
 
+#### Decision Speed v_1
 
+- Must be higher than: v_MCG
+- Must be less than: v_MBE // v_R
+- Increases with ALT, TEMP, TOM, headwind, upslope
+- Decreases with Flaps
+
+#### Take-Off Safety Speed v_2
+
+- Must be higher than v_2MIN, which is: 1.1\*v_MCA // 1.13\*v_SR or 1.08*v_SR (4x prop or jet with provisions)
+- Decreases with ALT, TEMP, Flaps
+- Increases with TOM
+
+#### Final Take-Off Speed v_FTO
+
+- > 1.18*v_SR
+- Must provide at least minimum climb gradient
+
+#### Non-standard take-off procedures
+
+- T/O with reduced thrust (saves engine life)
+  - Derating (by fixed value) -> Derated Thrust is op. limit
+  - Assumed temperature (flexible temp / FLEX) -> TOGA remains available
+- T/O on wet/contaminated RWY (TODR/ASDR increase, TOM/v_1 decrease)
+- T/O on wet/contaminated RWY with reduced Thrust (v_MCG reduce)
+- T/O with increased v_2 (climb perf. increase, higher v_1)
+
+#### Field balance
+
+- Balanced (No Stopway, no Clearway): TOD = ASD
+- Unbalanced (Clearway): TOD > ASD
+- Unbalanced (Stopway): TOD < ASD
+
+#### TOM limitations
+
+- Regulated TOM (RTOM), lesser of:
+  - Performance-limited TOM (PLTOM)
+  - Max. structural TOM (MSTOM)
+- Field-length limitedd TOM (FLLTOM)
+- Climb-limited TOM (CLTOM)
+- Obstacle-limited TOM (OLTOM)
+
+#### Max. bank angle during T/O
+
+| Altitude | Normal | Special Approval |
+|--|--|--|
+| < 50ft | 0° | same |
+| 50 - 200ft | 15° | same |
+| 200 - 400ft | 15° | 20° |
+| > 400ft | 25° | 30° |
+
+#### Runway conditions
+
+- Surface conditions (need to be > 25%)
+  - Dry
+  - Damp: Moisture, but no shiny appearance
+  - Wet: Moisture appears reflective
+  - Contaminated: Ice, Water/slush/snow > 3 mm, Compacted snow (all are falling from cloud)
+- Hydroplaning types:
+  - Dynamic: On standing water
+  - Viscous: On water + dirt or rubber
+  - Reverted rubber: blocked tyre, heating up, forming steam bubble
+- Max. speed for dynamic hydroplaning:
+  - Rotating tyres: v > 9 * sqrt(tyre press in psi)
+  - Non-rotating tyres: v > 7.7 * sqrt(tyre press in psi)
+ 
+#### Net T/O flight path (NTOFP)
+
+- Segment 1: End of TODR to "Gear up" (v_2, T/O Thrust)
+- Segment 2: "Gear up" to 400ft (v_2, T/O Thrust)
+- Segment 3: 400ft to "clean" (v_2, MCT Thrust)
+- Segment 4: "clean" to 1500ft (at v_FTO or v_x)
 
 ### 04-02 Climb
 
