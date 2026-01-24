@@ -215,17 +215,17 @@ In VMC, visual avoidance is sufficient
 #### Non-standard take-off procedures
 
 - T/O with reduced thrust (saves engine life)
-  - Derating (by fixed value) -> Derated Thrust is op. limit
-  - Assumed temperature (flexible temp / FLEX) -> TOGA remains available
+  - Derating (by fixed value) -> Derated Thrust is op. limit, allowed on cont. RWY
+  - Assumed temperature (flexible temp / FLEX) -> TOGA remains available, prohibited on cont. RWY
 - T/O on wet/contaminated RWY (TODR/ASDR increase, TOM/v_1 decrease)
 - T/O on wet/contaminated RWY with reduced Thrust (v_MCG reduce)
-- T/O with increased v_2 (climb perf. increase, higher v_1)
+- T/O with increased v_2 (increases OLTOM, higher v_1)
 
 #### Field balance
 
-- Balanced (No Stopway, no Clearway): TOD = ASD
-- Unbalanced (Clearway): TOD > ASD
-- Unbalanced (Stopway): TOD < ASD
+- Balanced (No Stopway, no Clearway): TOD(n-1) = ASD(n-1)
+- Unbalanced (with Clearway): TOD > ASD -> v_1 needs to be reduced
+- Unbalanced (with Stopway): TOD < ASD -> v_1 needs to be increased
 
 #### TOM limitations
 
@@ -263,19 +263,132 @@ In VMC, visual avoidance is sufficient
 #### Net T/O flight path (NTOFP)
 
 - Segment 1: End of TODR to "Gear up" (v_2, T/O Thrust)
+  - 2-eng gradient: 0 %
 - Segment 2: "Gear up" to 400ft (v_2, T/O Thrust)
+  - 2-eng gradient: 2.4 %
 - Segment 3: 400ft to "clean" (v_2, MCT Thrust)
+  - 2-eng gradient: 1.2 %
 - Segment 4: "clean" to 1500ft (at v_FTO or v_x)
+  - 2-eng gradient: 1.2 %
+ 
+For 3-eng add 0.3%, for 4-eng add another 0.2% (2. segment 0.3%)
+
+#### Special drag types relevant to the T/O roll
+
+- Displacement drag: Resisting forward movement of the wheels or floats
+- Impingement drag: Spray that hits the landing gear or airframe
+
+They act negatively on the TOD, positively on the RTO distance and varying on the ASD
+
+#### Gross climb gradient
+
+- 2-engine: GCG = NCG + 0.8%
+- 3-engine: GCG = NCG + 0.9%
+- 4-engine: GCG = NCG + 1.0%
 
 ### 04-02 Climb
 
+#### Climb phases
+
+- Phase 1: GND to FL100 (max 250kts IAS)
+- Phase 2: FL100 to crossover ALT (const IAS)
+- Phase 3: crossover ALT to en-route ALT (const M)
+
+#### Cost Index
+
+- CI = Cost of Time / Cost of fuel
+- Higher CI = faster flight
+
 ### 04-03 Cruise
+
+#### Speeds
+
+- Max. Range Cruise Speed v_MRC: Best fuel economy
+- Long Range Cruise Speed v_LRC: ~1.04*v_MRC, but only ~1% of higher fuel consumption
+
+#### Step climb
+
+- Limited by the 1.3g buffet onset
+- When flying 2000ft below optimum ALT a step should be performed
+
+#### High-ALT buffets
+
+- Low-speed vuffet is a fixed CAS number
+- High-speed buffet is a fixed Mach number
+
+#### Ceilings
+
+- Aerodynamic Ceiling (1.0g)
+- Manoeuvre ceiling (1.3g)
 
 ### 04-04 En-route one-engine-inoperative
 
+#### Procecure
+
+- MCT on good engine
+- Maintain ALT and decellerate to v_MD (drift-down speed)
+- Maintain v_MD and descend
+
+#### Min. ALT clearance
+
+- Stabilized: 1000 ft
+- Above airport: 1500 ft
+- Driftdown proc.: 2000 ft
+
 ### 04-05 Descent
 
+#### Continoous descent arrivals
+
+- Stay higher longer
+- Avoid level-off
+- fly with minimum thrust
+
+#### Influence of wind
+
+- Headwind: Later TOD
+- Tailwind: Earlier TOD
+
+1 NM per 10 kts
+
 ### 04-06 Approach and landing
+
+#### Speeds
+
+- v_REF = 1.23 * v_SR0
+
+#### Balked landing (AEO)
+
+- Min. climb gradient: 3.2%
+- Speed > 1.23*v_SR and v_MCL
+- Power lever moving from flight idle to TOGA: Thrust must be available within 8 secs
+
+#### Discontinued approach (OEI)
+
+- OEI, approach flap & gear up
+- Speed < 1.4 * v_SR
+- Min. climb gradient 2-eng: 2.1% (+0.3% per 3/4 engine)
+- Bank angle to live engine is limited to 2-3°
+
+#### Landing distances
+
+- Jet: 60% RWY (factor 1.66)
+- Prop: 70% RWY (factor 1.43)
+
+Factor 1.15 for wet RWY
+
+#### Quick turnaround factors
+
+- Altitude & Temp
+- Flap setting
+- RWY slope
+- Wind
+
+Limiting factor are the fuse plugs melting, not the brake performance!
+
+#### Braking performance
+
+- Autobrake: Increase in LDR due to braking at selected rate
+- Antiskid: Decrease in LDR due to braking at maximum rate
 
 ## 05 - CS-25/Applicable Operational Requirements Performance Class A – Use of Aeroplane Performance Data
 
