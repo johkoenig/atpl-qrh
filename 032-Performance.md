@@ -190,6 +190,18 @@ In VMC, visual avoidance is sufficient
 
 ## 03 - CS-23/Applicable Operational Requirements Performance Class B – Use of Aeroplane Performance Data for Single- and Multi-engine Aeroplanes
 
+### Application of regulatory factor on landing graphs
+
+- Landing distance -> No regulatory factor
+- Landing distance _required_ -> regulatory factor (1.43)
+- Landing roll distance _required_ -> regulatory factor (1.43)
+
+### Speeds
+
+- Barrier Speed = 1.3 * Stall speed
+
+
+
 ## 04 - CS-25/Applicable Operational Requirements Performance Class A – Theory
 
 ### 04-01 Take-off
@@ -392,8 +404,11 @@ Limiting factor are the fuse plugs melting, not the brake performance!
 
 ## 05 - CS-25/Applicable Operational Requirements Performance Class A – Use of Aeroplane Performance Data
 
-### 05-01 Take-off
+#### Brake cooling schedule
 
-### 05-02 Drift-down and stabilising altitude
+- Adjustment for braking configuration is only done for landing
+- RTO always goes from OAT line directly to cooling time (section I/II/III/IV)
 
-### 05-03 Landing
+#### Landing climb limit
+
+- Watch out whether temperature is given absolute or as ISA deviation
