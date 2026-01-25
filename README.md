@@ -12,9 +12,9 @@ The information has been added based on what I felt should be documented after g
 | 021 | Airframe, Systems, Electrics, Power Plant | Complete |
 | 022 | Instrumentation | Complete |
 | 031 | Mass & Balance | Complete |
-| 032 | Performance | Not started |
+| 032 | Performance | Complete |
 | 033 | Flight Planning & Monitoring | Complete |
-| 040 | Human Performance & Limitations | Completed |
+| 040 | Human Performance & Limitations | Complete |
 | 050 | Meteorology | Complete |
 | 061 | General Navigation | Complete |
 | 062 | Radio Navigation | Complete |
