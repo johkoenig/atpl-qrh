@@ -192,15 +192,19 @@ In VMC, visual avoidance is sufficient
 
 ### Application of regulatory factor on landing graphs
 
-- Landing distance -> No regulatory factor
-- Landing distance _required_ -> regulatory factor (1.43)
+- Landing distance (LD) -> No regulatory factor
+- Landing distance _required_ (LDR) -> regulatory factor (1.43)
 - Landing roll distance _required_ -> regulatory factor (1.43)
+
+### Application of regulatory factor on take-off graphs
+
+- (Defactored, Graphical, Minimal) Take-Off Distance (TOD) or Ground Roll (TOR) -> Not factorized
+- Ground roll _required_ (TORR) -> Only condition factor, no regulatory factors
+- Take-Off distance _required_ (TODR) -> Condition factors + regulatory factor
 
 ### Speeds
 
 - Barrier Speed = 1.3 * Stall speed
-
-
 
 ## 04 - CS-25/Applicable Operational Requirements Performance Class A – Theory
 
