@@ -27,6 +27,12 @@
 - System holding safety and operational information
 - Relevant for all operational crew (not just pilots)
 
+### Special category passengers (SCP)
+
+- PRM (Pax with reduced mobility)
+- Unaccompanied infants
+- deportees, prisoners
+
 ### Aircraft equipment
 
 - Wiper: 5700kg
@@ -39,22 +45,62 @@
 - Flight Monitoring system: 27000kg
 - Flight Data Analysis Programme: 27000kg
 - Fasten-Seatbelt-Signs: When not all seats are visible from the cockpit
+- Life-jackets: > 50 NM from land
+- Rafts: 120 m or 400 NM from land
 
 ### Lights at night
 
 - 3 navigation lights (red, green, white)
 - 2 landing lights
 
+### Weather minima at destination
+
+- During Planning: Planning minima +-1h
+- Before T/O: Planning minima ETA
+- En-Route: Operational minima ETA
+
+### Take-Off Alternate
+
+- 2-eng no ETOPS: 60 min
+- ETOPS or more than 2 eng: 120 min
+
+### Non-ETOPS distances to next aerodrome
+
+- Cat. B/C: 120 min or 300 NM
+- Cat. A max. 19 seats: 120 min (180 min authority approval)
+- Cat. A > 19 seats: 60 min
+
+### Approach categories
+
+- B: MDA 250ft
+- A/Cat I: 200ft / 550m
+- A/Cat II: 100ft / 300m
+- A/Cat IIIa: - / 200m
+- A/Cat IIIb: - / 75m
+
+### ETOPS En-Route alternate
+
+- PA: DA +200ft, RVR +800m
+- NPA: MDA + 400ft, RVR +1500m
+
+### LVO
+
+- Departure RVR < 400m
+- Landing RVR < 550m
+
+### RVSM errors
+
+- Altimetry +- 245ft
+- Total +- 300ft
+
 ### Oxygen requirements
 
-- Crew (Pilot and Cabin):
-  - 10.000ft/30 mins
-  - 13.000ft
-- Passengers:
-  - 10.000ft/30 mins for 10%
-  - 14.000ft for 30%
-  - 15.000ft for 100% (with minimum 10 min supply)
-- First-aid oxygen required > 25.000 ft
+| Who | Pressurized | Non-Pressurized |
+|--|--|--|
+| Crew | 10000ft/30min<br/>13000ft | 10000ft |
+| Pass. | 10000ft/30min/10%<br/>14000ft/30%<br/>15000ft | 10000ft/10%<br/>13000ft
+
+First-aid oxygen required > 25.000 ft
 
 ### Min. Landing distance
 
@@ -63,16 +109,24 @@
 
 ### Max. flight duty periods
 
--13h without extension
--14h with basic extension (operator discretion)
--15h at commander's discretion
--16h with augmented crew
+- 13h without extension
+- 14h with basic extension (operator discretion)
+- 15h at commander's discretion
+- 16h with augmented crew
+
+Rest period 12 h at home, 10 h away, but at least time of last FDP
+
+### Max. duty time
+
+- 7d: 60h
+- 14d: 110h
+- 28d: 190h
 
 ### CPL Commander requirements
 
 - VFR > 50 NM: 500h TT or IR
-- ME-IR: 700h TT and 400h PIC
-- SE-IR: 700h TT and 400h PIC
+- IFR: 700h TT and 400h PIC, 100h IR
+  - ME: 40h ME
 
 ### Inexperienced pilot
 
@@ -87,7 +141,14 @@
 - SLOP (Strategic lateral offset procedure): Offset right up to 2 NM, e.g. for turbulence
 - Weather deviation from track with max. 30° angle
   - If deviation > 5 NM, descend 300ft (north), climb 300 ft (south)
+- Non-Weather deviation from track with 30° angle
+  - If deviation > 5 NM, descend 500ft or below FL 290
 
+### Aerodrome categories
+
+- A: Normal
+- B: Difficult, requires briefing and training
+- C: Very difficult, requires briefing and training
 
 ## 02 - Special Operational Procedures and Hazards (General Aspects)
 
