@@ -72,11 +72,11 @@
 
 ### Approach categories
 
-- B: MDA 250ft
-- A/Cat I: 200ft / 550m
-- A/Cat II: 100ft / 300m
-- A/Cat IIIa: - / 200m
-- A/Cat IIIb: - / 75m
+- A: MDA >=250ft
+- B/Cat I: 200ft / 550m
+- B/Cat II: 100ft / 300m
+- B/Cat IIIa: - / 200m
+- B/Cat IIIb: - / 75m
 
 ### ETOPS En-Route alternate
 
