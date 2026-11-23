@@ -1,6 +1,40 @@
 # 090 Communications
 
-## 01 Concepts
+## Contents
+
+- [01 - Concepts](#01---concepts)
+  - [Definitions](#definitions)
+  - [Q-Codes for Bearings](#q-codes-for-bearings)
+  - [Operating times](#operating-times)
+- [02 - General Operating Procedures](#02---general-operating-procedures)
+  - [Definitions](#definitions-1)
+  - [Radio check / Readibility](#radio-check--readibility)
+  - [Responses to traffic information:](#responses-to-traffic-information)
+  - [Detailed holding instructions](#detailed-holding-instructions)
+  - [SELCAL check calls](#selcal-check-calls)
+- [03 - Relevant weather information](#03---relevant-weather-information)
+  - [Automated weather observations via datalink](#automated-weather-observations-via-datalink)
+  - [Automated Dependent Surveillance (ADS) variants:](#automated-dependent-surveillance-ads-variants)
+- [04 - Voice Communication Failure](#04---voice-communication-failure)
+  - [Continuance of speed and level](#continuance-of-speed-and-level)
+  - [Light gun signals](#light-gun-signals)
+  - [Lost Comm. IFR in VMC](#lost-comm-ifr-in-vmc)
+  - [Other means of re-establishing a lost communication](#other-means-of-re-establishing-a-lost-communication)
+- [05 - Distress and Urgency Procedures](#05---distress-and-urgency-procedures)
+  - [Distress call](#distress-call)
+  - [Message Priorities](#message-priorities)
+  - [Discrete Frequency](#discrete-frequency)
+  - [Other considerations](#other-considerations)
+- [06 - VHF Propagation and Allocation of Frequencies](#06---vhf-propagation-and-allocation-of-frequencies)
+  - [Frequency ranges](#frequency-ranges)
+  - [Attenuation](#attenuation)
+  - [Polarity](#polarity)
+  - [Direct line-of-sight distance](#direct-line-of-sight-distance)
+- [07 - Other communications](#07---other-communications)
+  - [Runway conditions](#runway-conditions)
+  - [Air Reports](#air-reports)
+
+## 01 - Concepts
 
 ### Definitions
 
@@ -23,7 +57,7 @@
 - HS: When scheduled operations take place
 - H24: continous day and night (24/7)
 
-## General Operating Procedures
+## 02 - General Operating Procedures
 
 ### Definitions
 
@@ -68,7 +102,7 @@ FLIRT:
 - "Request SELCAL check"
 - "SELCAL ok"
 
-## 03 Relevant weather information
+## 03 - Relevant weather information
 
 ### Automated weather observations via datalink
 
@@ -80,7 +114,7 @@ FLIRT:
 - **B**: Broadcast
 - **C**: Contract
 
-## 040 Voice Communication Failure
+## 04 - Voice Communication Failure
 
 ### Continuance of speed and level
 
@@ -111,7 +145,7 @@ FLIRT:
 - Alternate frequency
 - Other aeronautical stations
 
-## 050 Distress and Urgency Procedures
+## 05 - Distress and Urgency Procedures
 
 ### Distress call
 
@@ -154,7 +188,7 @@ FLIRT:
 - If nobody is answering, acknowledge and relay
 - Operator must be informed about PAN PAN / MAYDAY
 
-## 060 VHF Propagation and Allocation of Frequencies
+## 06 - VHF Propagation and Allocation of Frequencies
 
 ### Frequency ranges
 
@@ -187,13 +221,13 @@ Attenuation is increased by:
 Double distance requires 4x transmission power
 
 $$
-D = 1.23 \cdot \left\( \sqrt{h_1} + \sqrt{h_2} \right\)
+D = 1.23 \cdot \left( \sqrt{h_1} + \sqrt{h_2} \right)
 $$
 
 - Distance D in nautical miles (nm)
 - Heights h in feet (ft)
 
-## 070 Other communications
+## 07 - Other communications
 
 ### Runway conditions
 

@@ -1,6 +1,30 @@
 # 031 Mass & Balance
 
-## 01 Purpose of Mass and Balance Considerations
+## Contents
+
+- [01 - Purpose of Mass and Balance Considerations](#01---purpose-of-mass-and-balance-considerations)
+  - [Effects of high mass](#effects-of-high-mass)
+  - [Effects of CG movement](#effects-of-cg-movement)
+- [02 - Loading](#02---loading)
+  - [Masses](#masses)
+  - [Fuel Definitions](#fuel-definitions)
+  - [Conversions](#conversions)
+  - [Regulated Masses](#regulated-masses)
+  - [Determination of allowed Take-Off Mass](#determination-of-allowed-take-off-mass)
+  - [Other](#other)
+- [04 - Mass and Balance Details of Aircraft](#04---mass-and-balance-details-of-aircraft)
+  - [Datum](#datum)
+  - [Mean aerodynamic chord](#mean-aerodynamic-chord)
+  - [Center of Gravity (CG)](#center-of-gravity-cg)
+  - [Necessity of weighting](#necessity-of-weighting)
+  - [Other](#other-1)
+- [05 - Determination of CG Position](#05---determination-of-cg-position)
+  - [Index](#index)
+- [06 - Cargo Handling](#06---cargo-handling)
+  - [Cargo load terms](#cargo-load-terms)
+  - [Cargo types](#cargo-types)
+
+## 01 - Purpose of Mass and Balance Considerations
 
 ### Effects of high mass
 
@@ -21,7 +45,7 @@ Efficiency (Range, Speed, Ceiling) |  CG aft |
 Stall speed |  CG fwd  |
 Drag | CG fwd  |
 
-## 02 Loading
+## 02 - Loading
 
 ### Masses
 
@@ -81,7 +105,7 @@ Minimum of
 
 - Bending of a wing is the highest at ZFM and low fuel in wings
 
-## 04 Mass and Balance Details of Aircraft
+## 04 - Mass and Balance Details of Aircraft
 
 ### Datum
 
@@ -113,14 +137,14 @@ Note: Weighting must take place in an enclosed building
 
 - Position of horizontal stabiliser does not affect the CG
 
-## 05 Determination of CG Position
+## 05 - Determination of CG Position
 
 ### Index
 
 - The index is the moment, reduced by a factor (e.g. 1000)
 - The decrease of magnitude simplifies calculations
 
-## 06 Cargo Handling
+## 06 - Cargo Handling
 
 ### Cargo load terms
 

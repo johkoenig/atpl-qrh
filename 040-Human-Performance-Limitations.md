@@ -1,6 +1,49 @@
 # 040 Human Performance & Limitations
 
-## 040-01 Human factors in aviation
+## Contents
+
+- [01 - Human factors in aviation](#01---human-factors-in-aviation)
+  - [8 core competencies of a pilot acc. ICAO](#8-core-competencies-of-a-pilot-acc-icao)
+  - [Categories of the TEM concept](#categories-of-the-tem-concept)
+  - [Components of a safety management system (SMS)](#components-of-a-safety-management-system-sms)
+  - [SHELL](#shell)
+  - [Competency](#competency)
+  - [Types of countermeasures](#types-of-countermeasures)
+  - [Culture types](#culture-types)
+- [02 - Basics of Aviation Physiology and Health Maintenance](#02---basics-of-aviation-physiology-and-health-maintenance)
+  - [Axes of acceleration](#axes-of-acceleration)
+  - [Hypoxia](#hypoxia)
+  - [Hyperventilation](#hyperventilation)
+  - [Hypertension](#hypertension)
+  - [Hypotension](#hypotension)
+  - [Angina / Coronary (artery) heart disease](#angina--coronary-artery-heart-disease)
+  - [Circulatory system](#circulatory-system)
+  - [Respiration](#respiration)
+  - [Types of cosmic radiation](#types-of-cosmic-radiation)
+  - [Illusions](#illusions)
+  - [Motion sickness](#motion-sickness)
+  - [Eyes](#eyes)
+  - [Hearing losses](#hearing-losses)
+  - [Vestibular Apparatus](#vestibular-apparatus)
+  - [Nervous systems](#nervous-systems)
+  - [Visual impairments](#visual-impairments)
+  - [Circadian rhythm](#circadian-rhythm)
+  - [REM sleep](#rem-sleep)
+  - [Obesity](#obesity)
+  - [Diabetes](#diabetes)
+  - [Tropical deaseas](#tropical-deaseas)
+- [03 - Basic Aviation Psychology](#03---basic-aviation-psychology)
+  - [Types of memory](#types-of-memory)
+  - [Behaviours](#behaviours)
+  - [Factors on Attention](#factors-on-attention)
+  - [Stages of experience](#stages-of-experience)
+  - [Types of errors](#types-of-errors)
+  - [factors for errors](#factors-for-errors)
+  - [Methods of adressing a request](#methods-of-adressing-a-request)
+  - [General adaption syndrome (GAS)](#general-adaption-syndrome-gas)
+  - [Types of Stress](#types-of-stress)
+
+## 01 - Human factors in aviation
 
 ### 8 core competencies of a pilot acc. ICAO
 
@@ -67,7 +110,7 @@ Good safety culture:
 - Learning Culture: Action is taken on gathered data
 - Flexible Culture: Must be flexible in implementing solutions
 
-## 040-02 Basics of Aviation Physiology and Health Maintenance
+## 02 - Basics of Aviation Physiology and Health Maintenance
 
 ### Axes of acceleration
 
@@ -259,7 +302,7 @@ Can cause
 - Avoid raw fruit & vegetables, local water
 - Killing diseases: Rabie,s Cholera, Dysentery
 
-## 040-03 Basic Aviation Psychology
+## 03 - Basic Aviation Psychology
 
 ### Types of memory
 
