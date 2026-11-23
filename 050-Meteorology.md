@@ -8,7 +8,7 @@
   - [01-03 - Atmospheric pressure](#01-03---atmospheric-pressure)
   - [01-04 - Air density](#01-04---air-density)
   - [01-05 - International Standard Atmosphere (ISA)](#01-05---international-standard-atmosphere-isa)
-  - [Rules of thumb](#rules-of-thumb)
+  - [01-06 - Altimetry](#01-06---altimetry)
 - [02 - Wind](#02---wind)
   - [02-01 - Definition and measurement of wind](#02-01---definition-and-measurement-of-wind)
   - [02-02 - Primary cause of wind](#02-02---primary-cause-of-wind)
@@ -25,6 +25,7 @@
   - [04-01 - Cloud formation and description](#04-01---cloud-formation-and-description)
   - [04-02 - Fog, mist, haze](#04-02---fog-mist-haze)
 - [05 - Precipitation](#05---precipitation)
+  - [05-01 - Development of precipitation](#05-01---development-of-precipitation)
   - [05-02 - Types of precipitation](#05-02---types-of-precipitation)
 - [06 - Air Masses and Fronts](#06---air-masses-and-fronts)
   - [06-01 - Air masses](#06-01---air-masses)
@@ -36,6 +37,7 @@
   - [07-04 - Tropical revolving storms](#07-04---tropical-revolving-storms)
 - [08 - Climatology](#08---climatology)
   - [08-01 - Climatic zones](#08-01---climatic-zones)
+  - [08-02 - Tropical climatology](#08-02---tropical-climatology)
   - [08-03 - Typical weather situations in the mid-latitudes](#08-03---typical-weather-situations-in-the-mid-latitudes)
   - [08-04 - Local winds and associated weather](#08-04---local-winds-and-associated-weather)
 - [09 - Flight Hazards](#09---flight-hazards)
@@ -45,9 +47,9 @@
   - [09-04 - Thunderstorms](#09-04---thunderstorms)
   - [09-05 - Tornadoes](#09-05---tornadoes)
   - [09-06 - Inversions](#09-06---inversions)
+  - [09-07 - Stratospheric conditions](#09-07---stratospheric-conditions)
   - [09-08 - Hazards in mountainous areas](#09-08---hazards-in-mountainous-areas)
   - [09-09 - Visibility-reducing phenomena](#09-09---visibility-reducing-phenomena)
-  - [09-07 - Stratospheric conditions](#09-07---stratospheric-conditions)
 - [10 - Meteorological Information](#10---meteorological-information)
   - [10-01 - Observation](#10-01---observation)
   - [10-02 - Weather charts](#10-02---weather-charts)
@@ -152,7 +154,7 @@ Special: Col is the area in the middle between 2 high and 2 low pressure systems
 - Half (500 hPa) at 5500 m / FL 180
 - Quarter (250 hPa) at 11000 m / FL 360
 
-#### 01-06 - Altimetry
+### 01-06 - Altimetry
 
 #### Correction of altitude
 
@@ -160,7 +162,7 @@ Special: Col is the area in the middle between 2 high and 2 low pressure systems
 - 4% per 10°C ISA deviation (height only!)
 - 27ft or 30ft per hPa on the QNH
 
-### Rules of thumb
+#### Rules of thumb
 
 - In winter (cold), the mountains are higher (FL is less than true alt)
 - From high to low, no-no! (Low system, FL is less than true alt)
@@ -394,7 +396,7 @@ However, for AC clouds the range is 7000 - 15000 ft
 
 ## 05 - Precipitation
 
-#### 05-01 - Development of precipitation
+### 05-01 - Development of precipitation
 
 #### Theories
 
@@ -576,7 +578,7 @@ TRS do NOT originate from the south atlantic ocean!
 - Wind from high to low
 - Unequal heating of land and sea
 
-08-02 - Tropical climatology
+### 08-02 - Tropical climatology
 
 #### Trade winds
 
@@ -740,6 +742,13 @@ see 02-06
 - Warm temperature air above cold
 - Strongest in deserts
 
+### 09-07 - Stratospheric conditions
+
+- Constant temperature
+- Low air density
+- Strong wind but no turbulence
+- Higher cosmic radiation
+
 ### 09-08 - Hazards in mountainous areas
 
 - Valley inversion (fog and wind shear)
@@ -754,13 +763,6 @@ see 02-06
 - Blowing Snow (VIS < 1m)
 - Tropical downpour (tens of meters)
 - Inversion Mist/Haze: Reflecting sunlight on top
-
-### 09-07 - Stratospheric conditions
-
-- Constant temperature
-- Low air density
-- Strong wind but no turbulence
-- Higher cosmic radiation
 
 ## 10 - Meteorological Information
 
