@@ -1,5 +1,47 @@
 # 070 Operational Procecdures
 
+## Contents
+
+- [01 - General Requirements](#01---general-requirements)
+  - [ICAO Annex 6 Applicability](#icao-annex-6-applicability)
+  - [Management](#management)
+  - [AOC](#aoc)
+  - [Maintenance](#maintenance)
+  - [Flight Safety Documents System](#flight-safety-documents-system)
+  - [Special category passengers (SCP)](#special-category-passengers-scp)
+  - [Aircraft equipment](#aircraft-equipment)
+  - [Lights at night](#lights-at-night)
+  - [Weather minima at destination](#weather-minima-at-destination)
+  - [Take-Off Alternate](#take-off-alternate)
+  - [Non-ETOPS distances to next aerodrome](#non-etops-distances-to-next-aerodrome)
+  - [Approach categories](#approach-categories)
+  - [ETOPS En-Route alternate](#etops-en-route-alternate)
+  - [LVO](#lvo)
+  - [RVSM errors](#rvsm-errors)
+  - [Oxygen requirements](#oxygen-requirements)
+  - [Min. Landing distance](#min-landing-distance)
+  - [Max. flight duty periods](#max-flight-duty-periods)
+  - [Max. duty time](#max-duty-time)
+  - [CPL Commander requirements](#cpl-commander-requirements)
+  - [Inexperienced pilot](#inexperienced-pilot)
+  - [NAT HLA](#nat-hla)
+  - [Aerodrome categories](#aerodrome-categories)
+- [02 - Special Operational Procedures and Hazards (General Aspects)](#02---special-operational-procedures-and-hazards-general-aspects)
+  - [02-01 - Operations Manual](#02-01---operations-manual)
+  - [02-02 - Icing conditions](#02-02---icing-conditions)
+  - [02-03 - Bird strike (hazard)](#02-03---bird-strike-hazard)
+  - [02-04 - Noise abatement](#02-04---noise-abatement)
+  - [02-05 - Fire and smoke](#02-05---fire-and-smoke)
+  - [02-06 - Decompression](#02-06---decompression)
+  - [02-07 - Wind shear and microburst](#02-07---wind-shear-and-microburst)
+  - [02-08 - Wake turbulence](#02-08---wake-turbulence)
+  - [02-09 - Security (unlawful events)](#02-09---security-unlawful-events)
+  - [02-10 - Emergency and precautonary landing](#02-10---emergency-and-precautonary-landing)
+  - [02-11 - Fuel jettisoning](#02-11---fuel-jettisoning)
+  - [02-12 - Transport of dangerous goods (DG)](#02-12---transport-of-dangerous-goods-dg)
+  - [02-13 - Contaminated runways](#02-13---contaminated-runways)
+- [04 - Specialised Operations](#04---specialised-operations)
+
 ## 01 - General Requirements
 
 ### ICAO Annex 6 Applicability
@@ -152,7 +194,7 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
 
 ## 02 - Special Operational Procedures and Hazards (General Aspects)
 
-### 02-01 Operations Manual
+### 02-01 - Operations Manual
 
 #### OM Parts
 
@@ -167,7 +209,7 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
 - MEL by operators CAMO, not less restrictive than MMEL
 - Jump seat usage if allowed by OM and Commander
 
-### 02-02 Icing conditions
+### 02-02 - Icing conditions
 
 - 2-step process: De-Icing, then Anti-Icing
 - HOT (Hold-over time) starts at beginning of Anti-Icing
@@ -178,7 +220,7 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
   - Type II and IV: Stronger, used for anti-icing
   - Type III: Used for anti-icing on slower aircraft
 
-### 02-03 Bird strike (hazard)
+### 02-03 - Bird strike (hazard)
 
 - Highest risk below 2500 ft
 - Inform ATC when possible
@@ -186,7 +228,7 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
 - ICAO provides IBIS (ICAO Bird Strike Information System)
 - Bird Migration Information in AIP ENR 5.6
 
-### 02-04 Noise abatement
+### 02-04 - Noise abatement
 
 - NAPDs are established by the operator, based on the NADPs of the authority
 - No noise abatement procedures below 800 ft AGL
@@ -202,7 +244,7 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
 | NADP 1 | Close-In | V2 + 10-20 kts | Reduce thrust | Accel., retract flaps |
 | NADP 2 | Distant | V2 + 10-20 kts | Accel., retract flaps | No change |
 
-### 02-05 Fire and smoke
+### 02-05 - Fire and smoke
 
 - Brakes require cool-down after heavy use, otherwise fuse plugs may pop
   - Hot brakes should be apporached from the front/back
@@ -215,13 +257,13 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
   - 1 on the flight crew deck
   - 1 for 30, 2 for 60, 3 for 200, then 1 per 100
 
-### 02-06 Decompression
+### 02-06 - Decompression
 
 - TUC at 40.000 ft: 15-20 sec (slow) and 7-10 sec (rapid)
 - Don the oxygen masks first!
 - Rapid decompression signs: Mist, Expansion of body gases
 
-### 02-07 Wind shear and microburst
+### 02-07 - Wind shear and microburst
 
 - Entering microburst: Increase TAS, above G/S
 - Exiting microburst: Decrease TAS, drop in ALT and V/S
@@ -233,7 +275,7 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
   - Smoke changing directions
 - Downdraft (like center of microburst): Like less headwind, more tailwind, less AoA
 
-### 02-08 Wake turbulence
+### 02-08 - Wake turbulence
 
 - Wake turbulence occurs when aircraft is heavy, large, slow and clean configured
 - Wake occurs from rotation to touchdown
@@ -242,7 +284,7 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
   - 4 NM + 1 NM per cat diff
   - DODIA (2/3/2/3/2(3 for L behind M&H))
 
-### 02-09 Security (unlawful events)
+### 02-09 - Security (unlawful events)
 
 - ICAO Annex 17 is relevant here
 - Removal of found items is not part of the procedure (usually done by law enforcement)
@@ -256,7 +298,7 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
   - Each state of which citizens are on board
   - ICAO
 
-### 02-10 Emergency and precautonary landing
+### 02-10 - Emergency and precautonary landing
 
 - Smell of Smoke with unidentified source: Emergency landing
 - Smell of Smoke, while search is going on: Precautonary landing
@@ -265,13 +307,13 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
   - Gear up, Nose up, Flaps down
   - Parallel to swell, unless strong wind, then into the wind
 
-### 02-11 Fuel jettisoning
+### 02-11 - Fuel jettisoning
 
 - Jettison system must be capable to drop enough fuel in 15 mins to comply with climb gradients
 - Dump fuel above FL 60
 - 
 
-### 02-12 Transport of dangerous goods (DG)
+### 02-12 - Transport of dangerous goods (DG)
 
 - ICAO Technical Instructions provide info about packing and prohibited materials (among other information)
 - Radioactive materials:
@@ -283,7 +325,7 @@ Rest period 12 h at home, 10 h away, but at least time of last FDP
 - Incident reports must be filed within 72 h
 - Documents must be stored for 3 months
 
-### 02-13 Contaminated runways
+### 02-13 - Contaminated runways
 
 - Surface conditions (need to be > 25%)
   - Dry
